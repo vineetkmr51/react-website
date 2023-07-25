@@ -2,6 +2,8 @@ import React from 'react'
 import Banner from './components/Banner'
 import WhoWeAre from './components/WhoWeAre';
 import OurValue from './components/OurValue';
+import OurServices from './components/OurServices';
+import OurWork from './components/OurWork';
 
 function Home() {
     return (
@@ -9,6 +11,8 @@ function Home() {
         <Banner/>
         <WhoWeAre/>
         <OurValue/>
+        <OurServices/>
+        <OurWork/>
       </div>
     )
   }
