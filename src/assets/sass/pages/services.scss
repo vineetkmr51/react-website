@@ -1,0 +1,260 @@
+//---- Dark Theme design
+.dark-theme {
+  .services-page .inner-banner {
+    background: $dark-bg;
+    color: $white;
+  }
+}
+
+//---- Light Theme design
+.light-theme {
+  .services-page .inner-banner {
+    background: $white;
+  }
+
+  .services-page .dream-section,
+  .services-page .services-bar {
+    background: #f8f8f8;
+  }
+}
+
+.services-page .inner-banner {
+  .content {
+    position: relative;
+    span {
+      color: $color-orange;
+    }
+    p {
+      font-size: 18px;
+      padding: 0;
+      font-family: $apercu-pro-regular;
+      letter-spacing: -0.64px;
+    }
+  }
+  .icon {
+    position: absolute;
+    z-index: 9;
+    img {
+      width: 100%;
+    }
+    &.top.right {
+      top: 130px;
+      right: -10%;
+    }
+    &.bottom.right {
+      bottom: -56px;
+      right: 0;
+    }
+    &.bottom.left {
+      bottom: -70px;
+      left: -140px;
+    }
+  }
+}
+
+.services-page .dream-section {
+  padding: 80px 0 80px 0;
+  .content {
+    text-align: left !important;
+    padding: 0 46px 0 60px;
+    h2 {
+      font-size: 50px;
+      line-height: 1.31;
+      font-weight: bold;
+      font-family: $sans-Regular;
+      color: #222;
+    }
+    p {
+      font-size: 34px;
+      padding: 0;
+      color: $color-lotus;
+      font-family: $sans-Regular;
+    }
+  }
+}
+
+.services-page .services-bar {
+  padding-bottom: 80px;
+
+  .list-group {
+    padding: 0 46px 0 60px;
+    .item {
+      border-bottom: 1px solid #e0e3ed;
+      h4 {
+        font-family: $apercu-bold;
+        font-size: 32px;
+        color: #37383c;
+      }
+      p {
+        font-size: 18px;
+        font-family: $sans-Regular;
+        line-height: 1.8125;
+        color: #37383c;
+      }
+      ul {
+        padding: 0 0 10px 20px;
+        li {
+          font-size: 16px;
+          margin: 0 0 9px 0;
+          color: #37383c;
+          font-family: $sans-Regular;
+        }
+      }
+    }
+  }
+}
+
+/* for mobile */
+@media only screen and (max-width: 767px) {
+  .services-page {
+    overflow-x: hidden;
+  }
+  .services-page .inner-banner {
+    .content {
+      min-height: 330px;
+      h1 {
+        font-size: 2.8rem;
+        letter-spacing: 0;
+      }
+      p {
+        font-size: 16px;
+        padding: 0 36px;
+      }
+    }
+    .icon.top.right {
+      top: 80px;
+      right: -41%;
+    }
+    .icon img {
+      width: 50%;
+    }
+    .icon.bottom.right {
+      bottom: -56px;
+      right: -90px;
+    }
+    .icon.bottom.left {
+      bottom: -60px;
+      left: -170px;
+    }
+  }
+  .services-page .dream-section {
+    padding: 70px 0 20px 0;
+    .content {
+      h2 {
+        font-size: 38px;
+      }
+      p {
+        font-size: 18px;
+        padding: 0;
+      }
+      .text-center img {
+        width: 80%;
+      }
+    }
+  }
+  .services-page.technology-page .inner-banner .icon.top.right {
+    right: -22%;
+  }
+  .services-page .services-bar {
+    padding-bottom: 20px;
+  }
+  .services-page .dream-section .content p {
+    font-size: 18px;
+  }
+  .services-page .services-bar .list-group .item p {
+    font-size: 18px;
+  }
+  .services-page .services-bar .list-group,
+  .services-page .dream-section .content {
+    padding: 0;
+  }
+}
+/* ipad portrait */
+@media only screen and (max-width: 990px) and (min-width: 767px) {
+  .services-page {
+    overflow-x: hidden;
+  }
+  .services-page .inner-banner {
+    .icon img {
+      width: 60%;
+    }
+    .icon.top.right {
+      top: 120px;
+      right: -20%;
+    }
+    .icon.bottom.left {
+      left: -80px;
+    }
+    .icon.bottom.right {
+      right: -50px;
+    }
+    .content p {
+      padding: 0 10%;
+    }
+  }
+  .services-page .inner-banner .content h1 {
+    font-size: 4.7rem;
+    padding: 0 50px;
+  }
+  .services-page .services-bar {
+    padding-bottom: 30px;
+  }
+  .services-page .dream-section .content p {
+    font-size: 24px;
+  }
+  .services-page .services-bar .list-group,
+  .services-page .dream-section .content {
+    padding: 0;
+  }
+  .services-page .dream-section {
+    padding: 110px 0 30px 0;
+  }
+}
+
+/* ipad Landsacpe */
+@media only screen and (max-width: 1190px) and (min-width: 991px) {
+  .services-page .inner-banner .icon img {
+    width: 70%;
+  }
+  .services-page .inner-banner .icon.bottom.left {
+    left: -80px;
+  }
+  .services-page .inner-banner .icon.top.right {
+    right: -60px;
+  }
+  .services-page .inner-banner .icon.bottom.left {
+    bottom: -70px;
+    left: -70px;
+  }
+  .services-page .inner-banner .content h1 {
+    font-size: 4.5rem;
+  }
+  .services-page .inner-banner .content p {
+    padding: 0 16%;
+  }
+  .services-page .dream-section .content p {
+    font-size: 22px;
+  }
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .inner-banner .content h1 {
+    font-size: 5rem;
+  }
+  .services-page .dream-section .content h2 {
+    font-size: 44px;
+  }
+  .services-page .services-bar .list-group .item h4 {
+    font-size: 28px;
+  }
+  .services-page .dream-section .content p {
+    font-size: 22px;
+  }
+}
+
+/* for mobile */
+@media only screen and (min-width: 1200px) {
+  .services-page .inner-banner .content p {
+    padding: 0 8%;
+    font-size: 22px;
+  }
+}

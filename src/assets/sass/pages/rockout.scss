@@ -1,0 +1,93 @@
+
+/* rockout page */
+.description-rockout{
+    background: black;
+    color: white;
+  }
+  .content-rockout{
+    height: unset !important;
+  }
+  
+  .rockout-cloud .timeline-rock{
+    background: #5dc7e7 !important;
+  }
+ 
+  .rockout-cloud {
+    .inner-banner {
+        background: url('../../images/project/rockout-banner.png') ;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center;
+      }  
+    .inner-banner {
+            .content-main img {
+        
+                margin-top: 100px;
+            }
+    }
+    .solution-section{
+        background: url('../../images/project/rockout-three-images.png');
+        border-top: 5px;
+        position: relative;
+        min-height: 100vh;
+        border-bottom: 0px solid #1F1F24;
+        border-top: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .technology-section{
+        background: #E2F8FF;
+      }
+      .save-section {
+        background: #E2F8FF;
+      }
+      .image-section{
+        background: url('../../images/project/image-section-with-form.png');
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        border-bottom: 10px solid #1F1F24;
+      } 
+       
+    .border-service {
+        border-top: 5px !important;
+    }
+}
+.about-rock{
+  border-bottom: 0px !important;
+}
+.content-main {
+  min-height: 100vh !important;
+}
+.rockout-cloud .timeline-section .timeline-list .left-logo {
+  top: 7%;
+}
+@media only screen and (max-width: 1024px) {
+  
+}
+@media only screen and (max-width: 768px) {
+  .rockout-cloud .solution-section {
+    min-height: 430px;
+    background-size: contain;
+  }
+  
+}
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+  .rockout-cloud .timeline-section .content-main h2 {
+    margin: 22px 0px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+  .content-main {
+    min-height: 60vh !important ;
+  }
+    .rockout-cloud .solution-section {
+      min-height: 43vh;
+    }
+}

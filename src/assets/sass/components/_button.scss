@@ -1,0 +1,113 @@
+.btn {
+  text-align: center;
+  -webkit-border-radius: 8px;
+  border-radius: 8px;
+  color: #fff;
+  position: relative;
+  border: 2px solid transparent;
+  border: none;
+  text-align: center;
+  min-width: 172px;
+  padding: 14px;
+
+  &.btn-primary {
+    color: $white;
+    background: $primary-color;
+
+    &:hover {
+      background: #8e72fe;
+    }
+  }
+
+  &.btn-secondary {
+    color: $white;
+    background: $dark-bg;
+    font-family: $apercu-pro-regular;
+    font-weight: normal;
+
+    &:hover {
+      background: #303035;
+    }
+  }
+
+  &.lg {
+    min-width: 150px;
+  }
+
+  &.xl {
+    min-width: 180px;
+  }
+  &.xxl {
+    min-width: 280px;
+    padding: 16px 32px;
+  }
+
+  &.btn-transparent {
+    color: $white;
+    background: transparent;
+    border: 2px solid $white;
+  }
+}
+
+.link {
+  font-size: 18px;
+  letter-spacing: -0.45px;
+  font-family: $apercu-pro-regular;
+
+  svg {
+    margin: 0 0 2px 8px;
+  }
+}
+
+.anchor {
+  &::after {
+    display: block;
+    content: '';
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin: 0% 50%;
+    border-bottom: solid 2px $color-orange;
+  }
+
+  &:hover {
+    opacity: 0.9;
+
+    &:after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+.form.default {
+  label {
+    text-transform: uppercase;
+    font-family: $apercu-pro;
+  }
+  input.form-control,
+  textarea.form-control {
+    background: transparent;
+    color: $white;
+    border-radius: 8px;
+    border: 1px solid $white;
+    &:focus,
+    &:active {
+      outline: none;
+      box-shadow: none;
+      border-color: none;
+    }
+  }
+  input.form-control {
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .btn {
+    min-width: 140px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1300px) {
+  .modal-design .modal-content .modal-body .form .cs-radio label,
+  .form.default input.form-control {
+    height: 52px;
+  }
+}

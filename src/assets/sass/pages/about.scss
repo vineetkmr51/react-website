@@ -1,0 +1,342 @@
+$bannerHeight: 72vh;
+
+//---- Dark Theme design
+.dark-theme {
+  .about {
+    background: $dark-bg;
+    color: $white;
+    .our-team .card img {
+      background: #e8e8e8;
+    }
+    .process-main {
+      background: $white;
+      color: $text-grey;
+    }
+  }
+}
+
+//---- Light Theme design
+.light-theme {
+  .about {
+    background: $white;
+    .our-team {
+      h2 {
+        color: $white;
+      }
+      .card {
+        color: $white;
+
+        img {
+          background: #e8e8e8;
+        }
+      }
+    }
+    .process-main {
+      background: $dark-bg;
+    }
+    .consultation-bar {
+      background: $color-lotus;
+    }
+  }
+}
+.about {
+  .inner-banner {
+    .content {
+      h1 {
+        padding-right: 10%;
+        padding-top:150px;
+        margin-bottom: 0;
+        span {
+          color: $secondary-color;
+        }
+      }
+      p {
+        padding: 20px 0 60px 0;
+        line-height: 1.8;
+      }
+    }
+    .image-section {
+    
+      img {
+        width: 100%;
+        margin-top:126px;
+      }
+    }
+  }
+  .our-team {
+    background: $color-lotus;
+    padding: 0 0 290px 0;
+    h2 {
+      font-size: 50px;
+      font-family: $apercu-pro-regular;
+      font-weight: bold;
+      letter-spacing: -2.34px;
+    }
+    .col-cs {
+      -ms-flex: 0 0 20%;
+      flex: 0 0 20%;
+      max-width: 20%;
+      padding-right: 15px;
+      padding-left: 15px;
+      .card {
+        background: 0 0;
+        border: none;
+        text-align: center;
+        .img {
+          border-radius: 95%;
+          overflow: hidden;
+          min-height: 110px;
+          padding: 0;
+          img {
+            width: 100%;
+          }
+        }
+        h3 {
+          font-size: 18px;
+          line-height: 1;
+          margin-bottom: 5px;
+          margin: 18px 0 10px 0;
+          font-family: $apercu-pro-regular;
+          letter-spacing: -1px;
+          font-weight: normal;
+        }
+        p {
+          margin-bottom: 4px;
+          font-family: $apercu-pro-regular;
+          font-size: 0.95em;
+          letter-spacing: -0.7px;
+        }
+      }
+    }
+  }
+}
+.about {
+  .process-main {
+    display: flex;
+    padding-bottom: 110px;
+    .process-section {
+      margin: -190px 0 0 0;
+      background: #f8f8f8;
+      border-radius: 30px;
+      padding: 50px 60px;
+      .sub-heading h2 {
+        font-size: 50px;
+        line-height: 1.31;
+        font-weight: bold;
+        font-family: $sans-Regular;
+      }
+      .min-height {
+        min-height: 450px;
+        .card {
+          background: transparent;
+          border: none;
+          .cardImage {
+            width: 140px;
+            .left-margin {
+              margin-left: -5px;
+            }
+            img {
+              width: 100%;
+            }
+          }
+          h3 {
+            font-weight: bold;
+            font-family: $apercu-pro-regular;
+            font-size: 32px;
+            margin-top: 16px;
+          }
+          p {
+            font-size: 18px;
+            margin: 6px 0 0 0;
+            font-family: $apercu-pro-regular;
+            padding-right: 40px;
+          }
+        }
+      }
+    }
+  }
+}
+
+/* for mobile */
+@media only screen and (max-width: 767px) {
+  .about .our-team .col-cs {
+    -ms-flex: 0 0 48%;
+    flex: 0 0 48%;
+    max-width: 48%;
+  }
+  .about .our-team .col-cs .card .img {
+    min-height: 130px;
+  }
+  .about .our-team .col-cs .card {
+    text-align: center;
+    padding: 0 0 30px;
+  }
+  .about .inner-banner .content h1 {
+    font-size: 4.2rem;
+    padding-top: 140px;
+  }
+
+  .about .inner-banner .content p {
+    font-size: 18px;
+    line-height: 1.6;
+    padding: 20px 0 0px 0;
+  }
+  .about .inner-banner .content,
+  .about .inner-banner .image-section {
+    min-height: auto;
+  }
+  .about .inner-banner .image-section {
+    padding:0px ​0 40px 0;
+  }
+  .about .our-team h2 {
+    font-size: 2.3rem;
+    padding-top: 50px;
+  }
+  .about .process-main {
+    padding-bottom: 70px;
+  }
+  .about .our-team {
+    padding: 0 0 190px 0;
+  }
+  .about .process-main .process-section {
+    padding: 50px 30px 0px 30px;
+  }
+  .about .process-main .process-section .sub-heading h2 {
+    font-size: 2.1rem;
+  }
+  .about .process-main .process-section .min-height {
+    min-height: auto;
+    margin: 20px 0 50px 0;
+  }
+  .about .process-main .process-section .min-height .card p {
+    padding: 0;
+    font-size: 20px;
+  }
+  .about .inner-banner .image-section img {
+    margin-top: 0;
+  }
+  .about .our-team h2 {
+    font-size: 2.6rem;
+  }
+}
+
+/* ipad portrait */
+@media only screen and (max-width: 990px) and (min-width: 767px) {
+  .about .inner-banner .content h1 {
+    font-size: 4.6rem;
+    padding-right: 0;
+  }
+  .about .our-team .col-cs .card .img {
+    min-height: 115px;
+  }
+  .about .our-team .col-cs {
+    flex: 0 0 27%;
+    max-width: 25%;
+  }
+  .about .process-main .process-section .min-height .card p {
+    padding-right: 0;
+    font-size: 20px;
+  }
+  .about .process-main .process-section {
+    padding: 40px 30px;
+  }
+  .about .process-main .process-section .sub-heading h2 {
+    font-size: 2.8rem;
+  }
+  .about .process-main .process-section .min-height {
+    min-height: 530px;
+  }
+  .about .our-team {
+    padding: 0 0 250px 0;
+  }
+  .about .inner-banner .image-section img {
+    margin-top: 170px;
+}
+  .about .our-team h2 {
+    font-size: 3rem;
+  }
+}
+
+/* ipad Landsacpe */
+@media only screen and (max-width: 1190px) and (min-width: 991px) {
+  .about .our-team .col-cs .card .img {
+    min-height: 115px;
+  }
+  .about .inner-banner .content h1 {
+    font-size:5rem;
+    padding-top: 116px;
+  }
+  .about .inner-banner .content p {
+    padding: 20px 0 20px 0;
+}
+.about .inner-banner .image-section img {
+  width: 100%;
+  margin-top: 120px;
+}
+  .about .process-main .process-section .min-height .card p {
+    padding-right: 40px;
+    font-size: 20px;
+  }
+  .about .process-main .process-section {
+    padding: 60px 50px;
+  }
+  .about .process-main .process-section .sub-heading h2 {
+    font-size: 2.8rem;
+  }
+  .about .process-main .process-section .min-height {
+    min-height: 530px;
+  }
+  .about .our-team {
+    padding: 0 0 250px 0;
+  }
+  .inner-banner .content p {
+    font-size: 20px;
+  }
+
+}
+@media only screen and (max-width: 1400px) and (min-width: 1200px) {
+  .about .inner-banner .content h1 {
+    font-size: 5rem;
+    padding-top: 126px;
+  }
+  .about .inner-banner .content p {
+    line-height: 1.6;
+    font-size: 18px;
+  }
+
+  .about .inner-banner .image-section {
+
+    img {
+      width: 90%;
+      margin-top: 90px;
+    }
+  }
+  .about .process-main .process-section .sub-heading h2 {
+    font-size: 40px;
+  }
+  .about .process-main .process-section .min-height .card h3 {
+    font-size: 28px;
+  }
+}
+
+@media only screen and (max-width: 1500px) and (min-width: 1400px) {
+  .about .inner-banner .content {
+    min-height: 420px;
+    h1 {
+      font-size: 5rem;
+      padding-right: 11%;
+    }
+    p {
+      line-height: 1.6;
+      font-size: 20px;
+    }
+}
+
+  .about .inner-banner .image-section {
+
+    img {
+      width: 90%;
+      margin-top: 110px;
+    }
+  }
+}
