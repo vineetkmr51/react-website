@@ -3,11 +3,7 @@ import Portfolio1 from '../../../assets/images/portfolio/portfolio-1.jpg';
 import Portfolio2 from '../../../assets/images/portfolio/portfolio-2.jpg';
 import Portfolio3 from '../../../assets/images/portfolio/portfolio-3.jpg';
 import Portfolio4 from '../../../assets/images/portfolio/portfolio-4.jpg';
-import Portfolio5 from '../../../assets/images/portfolio/portfolio-5.jpg';
-import Portfolio6 from '../../../assets/images/portfolio/portfolio-6.jpg';
-import Portfolio7 from '../../../assets/images/portfolio/portfolio-7.jpg';
-import Portfolio8 from '../../../assets/images/portfolio/portfolio-8.jpg';
-import Portfolio9 from '../../../assets/images/portfolio/portfolio-9.jpg';
+
 
 function OurWork() {
   return (
@@ -127,20 +123,6 @@ function OurWork() {
                 <p>Card</p>
                 <div className="portfolio-links">
                   <a href={Portfolio2} data-gallery="portfolioGallery" className="portfokio-lightbox" title="Card 3"><i className="bi bi-plus"></i></a>
-                  <a href="portfolio-details.html" title="More Details"><i className="bi bi-link"></i></a>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div className="col-lg-6 col-md-6 portfolio-item filter-web">
-            <div className="portfolio-wrap">
-              <img src={Portfolio2} className="img-fluid" alt=""/>
-              <div className="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div className="portfolio-links">
-                  <a href={Portfolio2} data-gallery="portfolioGallery" className="portfokio-lightbox" title="Web 3"><i className="bi bi-plus"></i></a>
                   <a href="portfolio-details.html" title="More Details"><i className="bi bi-link"></i></a>
                 </div>
               </div>
