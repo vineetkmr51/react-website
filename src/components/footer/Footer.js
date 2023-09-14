@@ -1,6 +1,6 @@
 import React from "react";
 
-import Logo from '../../assets/images/logo.png';
+import LogoWhite from '../../assets/images/logo-white.png';
 
 function Footer() {
   return (
@@ -10,8 +10,7 @@ function Footer() {
         <div className="row gy-4">
           <div className="col-lg-5 col-md-12 footer-info">
             <a href="index.html" className="logo d-flex align-items-center">
-              <img src={Logo} alt=""/>
-              <span>FlexStart</span>
+              <img src={LogoWhite} alt="ilite soft technology"/>
             </a>
             <p>Cras fermentum odio eu feugiat lide par naso tierra. Justo eget nada terra videa magna derita valies darta donna mare fermentum iaculis eu non diam phasellus.</p>
             <div className="social-links mt-3">
@@ -62,7 +61,7 @@ function Footer() {
 
     <div className="container">
       <div className="copyright">
-        &copy; 2023 <strong><span>FlexStart</span></strong>. All Rights Reserved
+        &copy; 2023 <span>ilitesoft</span>. All Rights Reserved
       </div>
     </div>
   </footer>
