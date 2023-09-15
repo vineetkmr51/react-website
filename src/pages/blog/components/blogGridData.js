@@ -1,12 +1,9 @@
 
-import ReactvsAngular from '../../../assets/images/blog/thumbnail.png';
-import Agile from '../../../assets/images/blog/agile.png';
-import ReactFlutter from '../../../assets/images/blog/versus.jpg';
-import Docker1 from '../../../assets/images/blog/docker.png';
-import DesignTool from '../../../assets/images/blog/design-tool-banner.jpg';
+
+import DesignTool from '../../../assets/images/blog/serverless-list.jpg';
 import UiUxDesign from '../../../assets/images/blog/ui-ux-lg.jpg';
-import TopPayment from '../../../assets/images/blog/top-payment-list.jpg';
-import ServerLess from '../../../assets/images/blog/serverless-list.jpg';
+import TopPayment from '../../../assets/images/blog/blog-4.jpg';
+
 
 const BlogGrid = [
 

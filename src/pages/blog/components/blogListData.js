@@ -1,6 +1,6 @@
-import Blog4 from '../../../assets/images/blog/versus.jpg';
-import Docker from '../../../assets/images/blog/docker.png';
-import ReactvsAngular from '../../../assets/images/blog/agile.png';
+import Blog4 from '../../../assets/images/blog/serverless-list.jpg';
+import Docker from '../../../assets/images/blog/serverless-list.jpg';
+import ReactvsAngular from '../../../assets/images/blog/serverless-list.jpg';
 
 const BlogList = [
   {
