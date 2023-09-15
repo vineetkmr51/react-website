@@ -74,7 +74,9 @@ body {
   scroll-behavior: smooth;
 }
 
-
+#loom-companion-mv3{
+  display: none;
+}
 a {
   color: $primary-color;
   text-decoration: none;
@@ -108,23 +110,28 @@ section {
 }
 
 .section-header h2 {
-  font-size: 13px;
-  letter-spacing: 1px;
-  margin: 0;
+  margin: 10px 0 0 0;
+  padding: 0;
+  font-size: 60px;
+  line-height: 42px;
   color: $primary-color;
-  text-transform: uppercase;
+  font-weight: bold;
+  font-family: $narin-medium;
+  @media (max-width: 768px) {
+    font-size: 40px;
+  }
 }
 
 .section-header p {
   margin: 10px 0 0 0;
   padding: 0;
-  font-size: 38px;
-  line-height: 42px;
-  color: $primary-color;
+  font-size: 18px;
+    line-height: 26px;
+  color: $black;
 }
 
 @media (max-width: 768px) {
-  .section-header p {
+  .section-header h2 {
     font-size: 28px;
     line-height: 32px;
   }
@@ -533,8 +540,7 @@ section {
 .hero h1 {
   margin: 0;
   font-size: 48px;
-  font-weight: 700;
-  color: #012970;
+  color: $black;
   text-align: left;
 }
 
@@ -624,7 +630,7 @@ section {
 # About
 --------------------------------------------------------------*/
 .about .content {
-  background-color: #f6f9ff;
+  background-color: #f8f8f8;
   padding: 40px;
   text-align: left;
 }
@@ -637,7 +643,7 @@ section {
 }
 
 .about h2 {
-  font-size: 24px;
+  font-size: 30px;
   color: $black;
 }
 
@@ -677,15 +683,23 @@ section {
 # Values
 --------------------------------------------------------------*/
 .values .box {
-  padding: 30px;
+  padding: 30px 16px 20px 16px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
-  transition: 0.3s;
+  transition: 0.6s;
+  border: 2px solid #fff;
+  border-radius: 20px;
   height: 100%;
+  // transition: all .5s;
+  &:hover{
+    margin-top: -20px;
+    margin-bottom: 20px;
+    border: 2px solid #0129706e;
+  }
 }
 
 .values .box img {
-  padding: 30px 50px;
+  padding: 10px 50px 30px 50px;
   transition: 0.5s;
   transform: scale(1.1);
 }
@@ -869,15 +883,23 @@ section {
 /*--------------------------------------------------------------
 # Services
 --------------------------------------------------------------*/
-.services .service-box {
-  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
-  height: 100%;
-  padding: 60px 30px;
-  text-align: center;
-  transition: 0.3s;
-  border-radius: 5px;
+.services {
+  padding-bottom: 60px;
+  background: #fafafa;
+  margin-top: 40px;
+  .service-box {
+    box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+    height: 100%;
+    padding: 20px 20px;
+    text-align: center;
+    transition: 0.6s;
+    border-radius: 10px;
+    &:hover{
+      transform: rotate(-8deg);
+    }
+  }
 }
-
+ 
 .services .service-box .icon {
   font-size: 36px;
   padding: 40px 20px;
@@ -894,21 +916,6 @@ section {
   font-weight: 700;
 }
 
-.services .service-box .read-more {
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: 600;
-  font-size: 16px;
-  padding: 8px 20px;
-}
-
-.services .service-box .read-more i {
-  line-height: 0;
-  margin-left: 5px;
-  font-size: 18px;
-}
-
 .services .service-box.blue {
   border-bottom: 3px solid #2db6fa;
 }
@@ -923,7 +930,7 @@ section {
 }
 
 .services .service-box.blue:hover {
-  background: #2db6fa;
+  background: #dbf3fe;
 }
 
 .services .service-box.orange {
@@ -940,7 +947,7 @@ section {
 }
 
 .services .service-box.orange:hover {
-  background: #f68c09;
+  background: #fde3c4;
 }
 
 .services .service-box.green {
@@ -957,7 +964,7 @@ section {
 }
 
 .services .service-box.green:hover {
-  background: #08da4e;
+  background: #cffddf;
 }
 
 .services .service-box.red {
@@ -974,7 +981,7 @@ section {
 }
 
 .services .service-box.red:hover {
-  background: #e9222c;
+  background: #fef7f8;
 }
 
 .services .service-box.purple {
@@ -991,7 +998,7 @@ section {
 }
 
 .services .service-box.purple:hover {
-  background: #b50edf;
+  background: #f8e4fd;
 }
 
 .services .service-box.pink {
@@ -1008,13 +1015,13 @@ section {
 }
 
 .services .service-box.pink:hover {
-  background: #f51f9c;
+  background: #feecf7;
 }
 
 .services .service-box:hover h3,
 .services .service-box:hover p,
 .services .service-box:hover .read-more {
-  color: #fff;
+  color: $black;
 }
 
 .services .service-box:hover .icon {
@@ -1632,15 +1639,16 @@ section {
 }
 
 .recent-blog-posts .post-box .post-date {
-  font-size: 16px;
+  font-size: 12px;
   font-weight: 600;
   color: rgba(1, 41, 112, 0.6);
   display: block;
   margin-bottom: 10px;
+  font-family: $narin;
 }
 
 .recent-blog-posts .post-box .post-title {
-  font-size: 24px;
+  font-size: 20px;
   color: $black;
   margin-bottom: 18px;
   position: relative;
@@ -2302,7 +2310,7 @@ section {
 --------------------------------------------------------------*/
 .footer {
   background: #f6f9ff;
-  padding: 0 0 30px 0;
+  padding: 0 0 10px 0;
   font-size: 14px;
 }
 
@@ -2461,14 +2469,7 @@ section {
 }
 
 .footer .copyright {
-  text-align: center;
-  padding-top: 30px;
-  color: $black;
-}
-
-.footer .credits {
+  text-align: left;
   padding-top: 10px;
-  text-align: center;
-  font-size: 13px;
   color: $black;
 }

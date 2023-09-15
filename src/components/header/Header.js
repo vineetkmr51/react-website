@@ -1,14 +1,17 @@
 import React from "react";
+import { Link } from 'react-router-dom';
 
 function Header() {
   return (
     <header id="header" className="header fixed-top">
     <div className="container-fluid container-xl d-flex align-items-center justify-content-between">
 
-      <a href="index.html" className="logo d-flex align-items-center">
-        <img src="" alt=""/>
-        <span>FlexStart</span>
-      </a>
+    <Link
+              to="/"
+              className="logo d-flex align-items-center"
+            > <img src="" alt=""/>
+            <span>FlexStart</span>
+              </Link>
 
       <nav id="navbar" className="navbar">
         <ul>

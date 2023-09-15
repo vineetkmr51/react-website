@@ -10,8 +10,8 @@ function OurValue() {
       <div className="container" data-aos="fade-up">
 
         <div className="section-header">
-          <h2>Our Values</h2>
-          <p>Odit est perspiciatis laborum et dicta</p>
+          <h2>What We Deliver</h2>
+          <p>We define business processes through ideation,<br/> creation, and optimization with a team of exceptional strategists.</p>
         </div>
 
         <div className="row">
@@ -19,24 +19,24 @@ function OurValue() {
           <div className="col-lg-4" data-aos="fade-up" data-aos-delay="200">
             <div className="box">
               <img src={Value1} className="img-fluid" alt=""/>
-              <h3>Ad cupiditate sed est odio</h3>
-              <p>Eum ad dolor et. Autem aut fugiat debitis voluptatem consequuntur sit. Et veritatis id.</p>
+              <h3>Product Development</h3>
+              <p>We ideate and develop unique software solutions to help businesses meet their exact objectives.</p>
             </div>
           </div>
 
           <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="400">
             <div className="box">
               <img src={Value2} className="img-fluid" alt=""/>
-              <h3>Voluptatem voluptatum alias</h3>
-              <p>Repudiandae amet nihil natus in distinctio suscipit id. Doloremque ducimus ea sit non.</p>
+              <h3>Product Consultation</h3>
+              <p>We offer SaaS consultation to help businesses tread on visionary and strategic framework.</p>
             </div>
           </div>
 
           <div className="col-lg-4 mt-4 mt-lg-0" data-aos="fade-up" data-aos-delay="600">
             <div className="box">
               <img src={Value3} className="img-fluid" alt=""/>
-              <h3>Fugit cupiditate alias nobis.</h3>
-              <p>Quam rem vitae est autem molestias explicabo debitis sint. Vero aliquid quidem commodi.</p>
+              <h3>Product Optimization</h3>
+              <p>We optimize products through advanced updates to make them efficient and promisingly growing.</p>
             </div>
           </div>
 

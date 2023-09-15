@@ -62,11 +62,7 @@ function Footer() {
 
     <div className="container">
       <div className="copyright">
-        &copy; Copyright <strong><span>FlexStart</span></strong>. All Rights Reserved
-      </div>
-      <div className="credits">
-       
-        Designed by <a href="https://bootstrapmade.com/">BootstrapMade</a>
+        &copy; 2023 <strong><span>FlexStart</span></strong>. All Rights Reserved
       </div>
     </div>
   </footer>
