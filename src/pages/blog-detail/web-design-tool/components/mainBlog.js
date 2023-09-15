@@ -85,7 +85,7 @@ function mainBlog() {
                   app creation feature for Android and iOS is the best of all.
                 </p>
                 {/* <h5>Connect with our visionary web design team to create some exceptional websites and interfaces.  </h5> */}
-                {/* <div class="image-section pr-5">
+                {/* <div className="image-section pr-5">
                   <a href="/contact-us">
                   <img
                     src={ContentLInk}

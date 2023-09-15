@@ -11,7 +11,7 @@ function MainBlog() {
           <div className="padding-xl">
             <Row>
               <Col lg="7">
-                <div class="image-section d-flex align-items-center justify-content-center">
+                <div className="image-section d-flex align-items-center justify-content-center">
                   <Link to={grid.href}>
                     <img src={grid.blogImage} alt={grid.name} />
                   </Link>

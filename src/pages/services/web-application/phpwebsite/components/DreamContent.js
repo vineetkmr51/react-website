@@ -5,7 +5,7 @@ function DreamContent() {
   return (
     <div className="building-process d-flex align-items-center">
       <Container>
-        <div class="padding-xl">
+        <div className="padding-xl">
           <Row>
             <Col lg="12">
               <div className="content d-flex align-items-center text-center">

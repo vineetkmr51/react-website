@@ -7,7 +7,7 @@ function InnerBanner() {
     <div className="blog-content">
       <Container>
         <div className="padding-xl">
-          <div class="image-section">
+          <div className="image-section">
             <img src={BlogImage} alt="UI/UX Design tools" />
           </div>
         </div>

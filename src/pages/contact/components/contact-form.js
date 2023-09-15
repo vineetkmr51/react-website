@@ -4,6 +4,20 @@ import { Formik } from "formik";
 import { Container, Col, Row, Form, Button } from "react-bootstrap";
 
 function ContactForm() {
+  const [formStatus, setFormStatus] = React.useState('Send Message')
+  const onSubmit = (e) => {
+    e.preventDefault()
+    setFormStatus('Submitting...')
+    const { name, company, email, mobile, message } = e.target.elements
+    let contactForm = {
+      name: name.value,
+      company: company.value,
+      email: email.value,
+      mobile: mobile.value,
+      message: message.value,
+    }
+    console.log(contactForm)
+  }
   return (
     <div className="contact-form pb-5">
       <Container>
@@ -18,7 +32,7 @@ function ContactForm() {
                 <Col lg="7">
                   <div className="form mt-5">
                     <Formik>
-                      <Form>
+                      <Form  onSubmit={onSubmit}>
                         <Row>
                           <Col md="6">
                             <Form.Group
@@ -92,7 +106,7 @@ function ContactForm() {
                           <Col md="6">
                             <div className="d-flex pb-5 pt-2 mb-2 justify-content-center justify-content-md-end">
                               <Button variant="secondary" type="submit">
-                                Send Message
+                              {formStatus}
                               </Button>
                             </div>
                           </Col>

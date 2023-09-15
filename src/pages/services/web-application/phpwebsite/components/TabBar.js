@@ -5,7 +5,7 @@ import { Col, Row } from 'react-bootstrap';
 function WebApplication() {
   return (
     <div className="services-bar">
-      <div class="padding-xl">
+      <div className="padding-xl">
         <div className="container">
           <Row className="d-flex justify-content-center">
             <Col lg="12">

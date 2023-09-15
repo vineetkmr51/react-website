@@ -40,22 +40,22 @@ function Header() {
                       <ul>
                         <li>
                           <Link to="/services/mobile-app-development/ios-development">
-                            <div class="header-icon"></div>IOS App
+                            <div className="header-icon"></div>IOS App
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/mobile-app-development/android-app-development">
-                            <div class="header-icon "></div>Android App
+                            <div className="header-icon "></div>Android App
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/mobile-app-development/react-native-app-development">
-                            <div class="header-icon"></div>React Native App
+                            <div className="header-icon"></div>React Native App
                           </Link>
                         </li>
                         {/* <li>
                           <Link to="/services/mobile-app-development/flutter-app-development">
-                            <div class="header-icon"></div>flutter App
+                            <div className="header-icon"></div>flutter App
                           </Link>
                         </li> */}
                       </ul>
@@ -67,7 +67,7 @@ function Header() {
                       <ul>
                         <li>
                           <Link to="/services/mobile-app-development">
-                            <div class="header-icon"></div>Payment Gateway
+                            <div className="header-icon"></div>Payment Gateway
                           </Link>
                         </li>
                       </ul>
@@ -81,37 +81,37 @@ function Header() {
                       <ul>
                         <li>
                           <Link to="/services/web-development-services/full-stack-development">
-                            <div class="header-icon"></div>Full Stack
+                            <div className="header-icon"></div>Full Stack
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/web-development-services/react-development">
-                            <div class="header-icon"></div>React Js
+                            <div className="header-icon"></div>React Js
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/web-development-services/node-development">
-                            <div class="header-icon"></div>Node Js
+                            <div className="header-icon"></div>Node Js
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/web-development-services/vue-development">
-                            <div class="header-icon"></div>Vue Js
+                            <div className="header-icon"></div>Vue Js
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/web-development-services/java-development">
-                            <div class="header-icon"></div>Java
+                            <div className="header-icon"></div>Java
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/web-development-services/php-development">
-                            <div class="header-icon"></div>PHP
+                            <div className="header-icon"></div>PHP
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/web-development-services/python-app-development">
-                            <div class="header-icon"></div>Phython
+                            <div className="header-icon"></div>Phython
                           </Link>
                         </li>
                       </ul>
@@ -125,12 +125,12 @@ function Header() {
                       <ul>
                         <li>
                           <Link to="/services/digital-marketing-services/search-engine-optimization">
-                            <div class="header-icon"></div>SEO
+                            <div className="header-icon"></div>SEO
                           </Link>
                         </li>
                         <li>
                           <Link to="/services/digital-marketing-services/social-media-optimization">
-                            <div class="header-icon"></div>SMO
+                            <div className="header-icon"></div>SMO
                           </Link>
                         </li>
                       </ul>

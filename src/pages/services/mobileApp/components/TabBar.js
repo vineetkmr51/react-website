@@ -7,7 +7,7 @@ function Services() {
   return (
     <div className="services-bar">
       <div className="container">
-        <div class="padding-xl">
+        <div className="padding-xl">
           <Row className="d-flex justify-content-center">
             <Col lg="12">
               <div className="list-group">

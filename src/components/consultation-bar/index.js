@@ -15,7 +15,7 @@ function Consultation() {
   return (
     <section className="consultation-bar position-up">
       <Container>
-        <div class="padding-xl">
+        <div className="padding-xl">
           <Row className="d-flex justify-content-center">
             <Col md="12" xl="9">
               <div className="w-100 text-left text-lg-center d-block d-md-flex align-items-center">
