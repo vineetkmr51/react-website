@@ -11,7 +11,7 @@ function WebApplication() {
             <Col lg="12">
               <div className="list-group">
                 {PythonData.map((list, index) => (
-                  <div className="item pt-4 pb-3 mb-2">
+                  <div className="item pt-5 pb-5 mb-2">
                     <div className="d-block mb-3 align-items-center d-md-flex justify-content-between">
                       <h4 className="mb-0">{list.heading}</h4>
                     </div>
