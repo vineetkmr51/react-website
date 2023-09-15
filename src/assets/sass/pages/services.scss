@@ -1,5 +1,7 @@
-.inner-services {
-  .building-process {
+.inner-services,
+.services-page {
+  .building-process,
+  .dream-section {
     min-height: 340px;
     h2 {
       margin: 0;
@@ -18,7 +20,7 @@
   }
   .services-bar {
     text-align: left;
-    h4{
+    h4 {
       font-size: 32px;
       color: $text-grey;
       font-family: $narin-medium;
@@ -29,22 +31,21 @@
       font-size: 20px;
       text-align: left;
     }
-    .list-group .item{
+    .list-group .item {
       border-bottom: 1px solid #e0e3ed;
-      ul{
+      ul {
         padding: 0 0 10px 20px;
-        li{
+        li {
           font-size: 16px;
           margin: 0 0 9px;
           color: $text-grey;
           list-style-type: disc;
         }
       }
-      &:last-child{
+      &:last-child {
         border-bottom: none;
       }
     }
-   
   }
 }
 .consultation-bar {

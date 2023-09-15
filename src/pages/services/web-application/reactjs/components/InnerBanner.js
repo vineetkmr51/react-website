@@ -7,9 +7,13 @@ function InnerBanner() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Android App Development</h1>
-            {/* <p>Bring your business to everyone everywhere with our mobile app development services and expand your horizons.
-</p> */}
+            <h1>
+              ReactJs Development
+            </h1>
+            {/* <p>
+              Get a space for your business in the web world with our web
+              development services and grow it further.
+            </p> */}
           </div>
           <div
             className="col-lg-6 hero-img"

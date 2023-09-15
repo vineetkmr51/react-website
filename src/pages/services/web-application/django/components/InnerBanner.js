@@ -7,9 +7,9 @@ function InnerBanner() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center">
-            <h1 data-aos="fade-up">Android App Development</h1>
-            {/* <p>Bring your business to everyone everywhere with our mobile app development services and expand your horizons.
-</p> */}
+          <h1>
+                    Django Development
+                    </h1>
           </div>
           <div
             className="col-lg-6 hero-img"

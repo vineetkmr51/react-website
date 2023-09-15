@@ -135,6 +135,32 @@ section {
   }
 }
 
+.pagefound {
+  min-height: 80vh;
+  padding-top: 80px;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  h4 {
+    font-size: 90px;
+    font-style: italic;
+    font-family: $narin;
+    text-align: center;
+    font-weight: bold;
+    width: 100%;
+    color: #eae4f1;
+    padding-bottom: 20px;
+  }
+  p {
+    font-size: 28px;
+    text-align: center;
+    width: 100%;
+    padding-bottom: 80px;
+    font-weight: bold;
+    color:#999;
+    font-style: italic;
+  }
+}
 /*--------------------------------------------------------------
 # Breadcrumbs
 --------------------------------------------------------------*/
@@ -228,7 +254,6 @@ section {
   }
 }
 
-
 /*--------------------------------------------------------------
 # Hero Section
 --------------------------------------------------------------*/
@@ -277,7 +302,6 @@ section {
     }
   }
 }
-
 
 .hero .hero-img {
   text-align: right;
@@ -2002,4 +2026,3 @@ section {
   color: #a5c5fe;
   font-size: 14px;
 }
-
