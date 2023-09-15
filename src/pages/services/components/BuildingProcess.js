@@ -6,8 +6,10 @@ function BuildingProcess() {
     <div className="container">
         <div className="row">
             <div className="col-lg-12">
-                <h2 data-aos="fade-up">Building Foundations and Processes for Splendid Visions</h2>
-                <p>We provide an array of quintessential Mobile Apps, Web Apps & Payment Gateway integration services tailored to meet your business needs. Our objective is to ensure that your business starts from the perfect foundation and gets befitting software support on the way.</p>
+                <h2 data-aos="fade-up">Building virtual platforms for businesses seeking success</h2>
+                <p>An established virtual presence has become a staple for modern businesses to survive. We produce the best mobile, web, and marketing solutions for our clients to help them outshine despite the toughest challenges in the web world.
+
+</p>
             </div>
         </div>
     </div>

@@ -5,7 +5,7 @@ import OurValue from './components/OurValue';
 import OurServices from './components/OurServices';
 import OurWork from './components/OurWork';
 import Blog from './components/Blog';
-import Footer from '../../components/footer/Footer';
+
 
 function Home() {
     return (
@@ -16,7 +16,7 @@ function Home() {
         <OurServices/>
         <OurWork/>
         <Blog/>
-        <Footer/>
+        
       </div>
     )
   }

@@ -1,12 +1,16 @@
 import React from 'react'
-import Banner from './components/Banner'
+import InnerBanner from './components/InnerBanner'
 import BuildingProcess from './components/BuildingProcess'
+import TabBar from './components/TabBar'
+import Consultation from "../../components/consultation-bar";
 
 function Services() {
     return (
-      <div>
-        <Banner/>
+      <div className="inner-services">
+        <InnerBanner/>
         <BuildingProcess/>
+        <TabBar/>
+        <Consultation />
       </div>
     )
   }

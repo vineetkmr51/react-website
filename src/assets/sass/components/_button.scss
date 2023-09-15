@@ -1,14 +1,19 @@
 .btn {
   text-align: center;
   -webkit-border-radius: 8px;
-  border-radius: 8px;
-  color: #fff;
-  position: relative;
-  border: 2px solid transparent;
+  line-height: 0;
+  padding: 15px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: $white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family: $narin;
+  background: $primary-color;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
   border: none;
-  text-align: center;
-  min-width: 172px;
-  padding: 14px;
 
   &.btn-primary {
     color: $white;
@@ -22,7 +27,7 @@
   &.btn-secondary {
     color: $white;
     background: $dark-bg;
-    font-family: $apercu-pro-regular;
+    font-family: $narin;
     font-weight: normal;
 
     &:hover {
@@ -52,7 +57,7 @@
 .link {
   font-size: 18px;
   letter-spacing: -0.45px;
-  font-family: $apercu-pro-regular;
+  font-family: $sans-Regular;
 
   svg {
     margin: 0 0 2px 8px;
@@ -62,7 +67,7 @@
 .anchor {
   &::after {
     display: block;
-    content: '';
+    content: "";
     transform: scaleX(0);
     transition: transform 250ms ease-in-out;
     transform-origin: 0% 50%;
@@ -81,7 +86,7 @@
 .form.default {
   label {
     text-transform: uppercase;
-    font-family: $apercu-pro;
+    font-family: $sans-Regular;
   }
   input.form-control,
   textarea.form-control {
