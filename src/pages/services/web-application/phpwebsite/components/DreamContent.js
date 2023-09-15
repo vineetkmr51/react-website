@@ -15,7 +15,7 @@ function DreamContent() {
 
                       <h2 className="mb-4">What to Expect</h2>
                       <p>
-                        Radiansys offers extensive PHP website development
+                        ilitesoft offers extensive PHP website development
                         services for businesses looking to deliver high-quality
                         uniform digital experiences to their customers. With
                         help from our PHP developers, you can use PHP’s strong

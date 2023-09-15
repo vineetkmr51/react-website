@@ -20,7 +20,7 @@ function mainBlog() {
                     </div>
                     <div className="media-body">
                       <p>Shubhangi Choudhary</p>
-                      <span>Marketing Manager @ Radiansys</span>
+                      <span>Marketing Manager @ ilitesoft</span>
                     </div>
                   </div>
                 </div>
@@ -193,7 +193,7 @@ function mainBlog() {
                   trends.&nbsp;
                   <a
                     target="_blank"
-                    href="https://www.radiansys.com/contact-sales"
+                    href="https://www.ilitesoft.com/contact-sales"
                     className="underline"
                   >
                     Connect with us

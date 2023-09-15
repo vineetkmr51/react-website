@@ -114,7 +114,7 @@ function ContactForm() {
                     <div className="list-item ml-1 mt-3 mb-5">
                       <h6>Connect with us</h6>
                       <p>
-                        sales@radiansys.com
+                        sales@ilitesoft.com
                         <br />
                         (510) 790 2000
                       </p>

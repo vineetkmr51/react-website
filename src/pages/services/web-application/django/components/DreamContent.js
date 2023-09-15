@@ -15,7 +15,7 @@ function DreamContent() {
                       <h2 className="mb-4">What to Expect</h2>
                       <p>
                         Expertise is a must for Django web development and
-                        Radiansys has the rightly skilled team for it. Our
+                        ilitesoft has the rightly skilled team for it. Our
                         Django experts can build the best web platform using
                         Django alongside ensuring its quality, security, and
                         operability.

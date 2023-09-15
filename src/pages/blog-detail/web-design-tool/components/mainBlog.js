@@ -20,7 +20,7 @@ function mainBlog() {
                     </div>
                     <div className="media-body">
                       <p>Viiniit Aroraa</p>
-                      <span>Sr. Lead UI/UX @ Radiansys</span>
+                      <span>Sr. Lead UI/UX @ ilitesoft</span>
                     </div>
                   </div>
                 </div>
@@ -44,7 +44,7 @@ function mainBlog() {
                   <a
                     className="underline"
                     target="_blank"
-                    href="https://www.radiansys.com/"
+                    href="https://www.ilitesoft.com/"
                   >
                     UI/UX design company
                   </a>{' '}
@@ -184,7 +184,7 @@ function mainBlog() {
                   <a
                     className="underline"
                     target="_blank"
-                    href="https://www.radiansys.com/"
+                    href="https://www.ilitesoft.com/"
                   >
                     UI/UX design company
                   </a>{' '}

@@ -15,7 +15,7 @@ const ReactNative = () => {
         <meta property="og:title" content="React Native Development Services" />
         <meta
           property="og:description"
-          content="Choose the reliable React Native development services for a stable and sturdy app for your business. Radiansys is a trusted React Native development company."
+          content="Choose the reliable React Native development services for a stable and sturdy app for your business. ilitesoft is a trusted React Native development company."
         />
       </Helmet>
 

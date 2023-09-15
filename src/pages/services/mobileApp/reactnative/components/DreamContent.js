@@ -9,7 +9,7 @@ function DreamContent() {
           <div className="col-lg-12">
             <h2 data-aos="fade-up">What to Expect</h2>
             <p>
-            Radiansys offers full service React Native development
+            ilitesoft offers full service React Native development
                         for businesses that want apps deployable on both iOS and
                         Android. With vast expertise, we quickly craft solutions
                         that perform well in both the Apple App Store and Google

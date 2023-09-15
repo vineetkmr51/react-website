@@ -9,7 +9,7 @@ function DreamContent() {
           <div className="col-lg-12">
             <h2 data-aos="fade-up">What to Expect</h2>
             <p>
-            Radiansys also specializes in the Flutter app
+            ilitesoft also specializes in the Flutter app
                         development services to help businesses utilize the
                         power of the most diverse apps with a rich UI. The
                         Flutter toolkit makes codes available for cross-platform

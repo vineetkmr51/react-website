@@ -15,7 +15,7 @@ function DreamContent() {
                     <div className="col-lg-12 col-xl-12">
                       <h2 className="mb-4">What to Expect</h2>
                       <p>
-                        Radiansys offers comprehensive VueJS development
+                        ilitesoft offers comprehensive VueJS development
                         services to businesses interested in one of the most
                         adaptable platforms available. We can help your business
                         capitalize on the most flexible and progressive

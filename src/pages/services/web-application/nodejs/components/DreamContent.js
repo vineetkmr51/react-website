@@ -14,7 +14,7 @@ function DreamContent() {
                     <div className="col-lg-12 col-xl-12">
                       <h2 className="mb-4">What to Expect</h2>
                       <p>
-                        Radiansys offers complete NodeJS services to businesses
+                        ilitesoft offers complete NodeJS services to businesses
                         that want highly customized web apps. With our help, you
                         can take advantage of this cross-platform JavaScript
                         framework to create web apps that scale well, work

@@ -9,38 +9,38 @@ const Smo = () => {
   return (
     <div className="services-page">
       <Helmet>
-        <title>Vue Development Company | Services | Radiansys</title>
+        <title>Vue Development Company | Services | ilitesoft</title>
         <meta property="og:title" content="VueJS Development" />
-        <meta property="og:description" content="Radiansys, is a top Vue Development Company offering quality VueJS Development Services to clients all over the world." />
+        <meta property="og:description" content="ilitesoft, is a top Vue Development Company offering quality VueJS Development Services to clients all over the world." />
         <meta
           property="og:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="VueJS Development" />
-        <meta name="twitter:description" content="Radiansys, is a top Vue Development Company offering quality VueJS Development Services to clients all over the world." />
+        <meta name="twitter:description" content="ilitesoft, is a top Vue Development Company offering quality VueJS Development Services to clients all over the world." />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
         <meta
           name="description"
-          content="Radiansys, is a top Vue Development Company offering quality VueJS Development Services to clients all over the world."
+          content="ilitesoft, is a top Vue Development Company offering quality VueJS Development Services to clients all over the world."
         />
         <link
           rel="canonical"
-          href="https://www.radiansys.com/technologies/web-development-services/vue-development"
+          href="https://www.ilitesoft.com/technologies/web-development-services/vue-development"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.radiansys.com/technologies/web-development-services/vue-development"
+          content="https://www.ilitesoft.com/technologies/web-development-services/vue-development"
         />
-        <meta property="og:site_name" content="Radiansys" />
+        <meta property="og:site_name" content="ilitesoft" />
         <meta
           property="article:publisher"
-          content="https://www.facebook.com/Radiansys"
+          content="https://www.facebook.com/ilitesoft"
         />
       </Helmet>
         <InnerBanner />

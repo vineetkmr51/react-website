@@ -20,7 +20,7 @@ const Smo = () => {
         />
         <meta
           property="og:image"
-          content="https://www.radiansys.com/media-presence.png"
+          content="https://www.ilitesoft.com/media-presence.png"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Social Media Optimization" />
@@ -30,21 +30,21 @@ const Smo = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/media-presence.png"
+          content="https://www.ilitesoft.com/media-presence.png"
         />
         <meta
           name="description"
-          content="Radiansys offers top-class Social Media Optimization Services, Our SMO services help businesses or company achieve a strong online presence."
+          content="ilitesoft offers top-class Social Media Optimization Services, Our SMO services help businesses or company achieve a strong online presence."
         />
         <link
           rel="canonical"
-          href="https://www.radiansys.com/technologies/digital-marketing-services/social-media-optimization"
+          href="https://www.ilitesoft.com/technologies/digital-marketing-services/social-media-optimization"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.radiansys.com/technologies/digital-marketing-services/social-media-optimization"
+          content="https://www.ilitesoft.com/technologies/digital-marketing-services/social-media-optimization"
         />
       </Helmet>
 

@@ -10,15 +10,15 @@ const MobileApp = () => {
     <div className="inner-services">
      <Helmet>
         <title>
-          Mobile App Development Services Company in USA | Radiansys
+          Mobile App Development Services Company in USA | ilitesoft
         </title>
         <meta
           property="og:title"
-          content="Mobile App Development Services Company in USA | Radiansys"
+          content="Mobile App Development Services Company in USA | ilitesoft"
         />
         <meta
           property="og:description"
-          content="Radiansys is a Leading Mobile App Development Company in USA. We develop custom mobile Apps for iOS and Android. Ask for a free consultation now."
+          content="ilitesoft is a Leading Mobile App Development Company in USA. We develop custom mobile Apps for iOS and Android. Ask for a free consultation now."
         />
       </Helmet>
       <InnerBanner />

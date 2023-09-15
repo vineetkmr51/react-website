@@ -15,38 +15,38 @@ const FlutterApp = () => {
         <meta property="og:title" content="MEAN Stack Development" />
         <meta
           property="og:description"
-          content="Flutter development services are high in demand in the app world. Radiansys is a trusted Flutter development company working with the best experts."
+          content="Flutter development services are high in demand in the app world. ilitesoft is a trusted Flutter development company working with the best experts."
         />
         <meta
           property="og:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Flutter Development Services" />
         <meta
           name="twitter:description"
-          content="Flutter development services are high in demand in the app world. Radiansys is a trusted Flutter development company working with the best experts."
+          content="Flutter development services are high in demand in the app world. ilitesoft is a trusted Flutter development company working with the best experts."
         />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
         <meta name="geo.placename" content="Fremont" />
         <meta name="geo.position" content="37.550494;-121.974042" />
         <meta name="geo.region" content="US" />
         <meta
           name="description"
-          content="Flutter development services are high in demand in the app world. Radiansys is a trusted Flutter development company working with the best experts."
+          content="Flutter development services are high in demand in the app world. ilitesoft is a trusted Flutter development company working with the best experts."
         />
         <link
           rel="canonical"
-          href="https://www.radiansys.com/technologies/mobile-app-development-services/flutter-app-development"
+          href="https://www.ilitesoft.com/technologies/mobile-app-development-services/flutter-app-development"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.radiansys.com/technologies/mobile-app-development-services/flutter-app-development"
+          content="https://www.ilitesoft.com/technologies/mobile-app-development-services/flutter-app-development"
         />
       </Helmet>
       <InnerBanner />

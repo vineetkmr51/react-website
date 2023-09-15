@@ -14,7 +14,7 @@ function DreamContent() {
                     <div className="col-lg-12 col-xl-12">
                       <h2 className="mb-4">What to Expect</h2>
                       <p>
-                        Radiansys’ leading Java app development services are
+                        ilitesoft’ leading Java app development services are
                         well-suited to businesses looking to develop robust web
                         applications for their customers. As both a backend and
                         a frontend language, Java is one of the most

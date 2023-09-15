@@ -9,38 +9,38 @@ const Smo = () => {
   return (
     <div className="services-page">
       <Helmet>
-        <title>React Development Company | Services | Radiansys</title>
+        <title>React Development Company | Services | ilitesoft</title>
         <meta property="og:title" content="React Development Services" />
-        <meta property="og:description" content="Radiansys is a leading React Development Company based in United States. Our experienced React Developers create custom apps for you." />
+        <meta property="og:description" content="ilitesoft is a leading React Development Company based in United States. Our experienced React Developers create custom apps for you." />
         <meta
           property="og:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="React Development Services" />
-        <meta name="twitter:description" content="Radiansys is a leading React Development Company based in United States. Our experienced React Developers create custom apps for you." />
+        <meta name="twitter:description" content="ilitesoft is a leading React Development Company based in United States. Our experienced React Developers create custom apps for you." />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
         <meta
           name="description"
-          content="Radiansys is a leading React Development Company based in United States. Our experienced React Developers create custom apps for you."
+          content="ilitesoft is a leading React Development Company based in United States. Our experienced React Developers create custom apps for you."
         />
         <link
           rel="canonical"
-          href="https://www.radiansys.com/technologies/web-development-services/react-development"
+          href="https://www.ilitesoft.com/technologies/web-development-services/react-development"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.radiansys.com/technologies/web-development-services/react-development"
+          content="https://www.ilitesoft.com/technologies/web-development-services/react-development"
         />
-        <meta property="og:site_name" content="Radiansys" />
+        <meta property="og:site_name" content="ilitesoft" />
         <meta
           property="article:publisher"
-          content="https://www.facebook.com/Radiansys"
+          content="https://www.facebook.com/ilitesoft"
         />
 
       </Helmet>

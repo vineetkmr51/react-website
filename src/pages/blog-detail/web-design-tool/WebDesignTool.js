@@ -8,7 +8,7 @@ const BlogLanding = () => {
   return (
     <div className="blog-detail">
       <Helmet>
-        <title>Top 12 UI/UX design tools in 2021 | Radiansys</title>
+        <title>Top 12 UI/UX design tools in 2021 | ilitesoft</title>
         <meta property="og:title" content="UI/UX design tools" />
         <meta
           property="og:description"
@@ -16,11 +16,11 @@ const BlogLanding = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/design-tool-banner-detail-min.jpg"
+          content="https://www.ilitesoft.com/design-tool-banner-detail-min.jpg"
         />
         <link
           rel="canonical"
-          href="https://www.radiansys.com/blog/design-tool-banner-detail-min.jpg"
+          href="https://www.ilitesoft.com/blog/design-tool-banner-detail-min.jpg"
         />
         <meta
           name="description"
@@ -28,27 +28,27 @@ const BlogLanding = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/design-tool-banner-detail-min.jpg"
+          content="https://www.ilitesoft.com/design-tool-banner-detail-min.jpg"
         ></meta>
         <meta
           property="og:image"
-          content="https://www.radiansys.com/design-tool-banner-detail-min.jpg"
+          content="https://www.ilitesoft.com/design-tool-banner-detail-min.jpg"
         />
         <meta
           property="og:image:secure_url"
-          content="https://www.radiansys.com/design-tool-banner-detail-min.jpg"
+          content="https://www.ilitesoft.com/design-tool-banner-detail-min.jpg"
         />
         <meta
           property="og:url"
-          content="https://www.radiansys.com/blog/ui-ux-design-tools"
+          content="https://www.ilitesoft.com/blog/ui-ux-design-tools"
         />
         {/* <meta name="author" content="" />
         <meta name="twitter:card" content="summary" />
-        <meta name="twitter:site" content="@RadiansysInc" />
-        <meta name="twitter:creator" content="@RadiansysInc" />
+        <meta name="twitter:site" content="@ilitesoftInc" />
+        <meta name="twitter:creator" content="@ilitesoftInc" />
         <meta
           name="twitter:title"
-          content="Radiansys | Software Development and Consulting Company"
+          content="ilitesoft | Software Development and Consulting Company"
         />
         <meta
           name="twitter:description"
@@ -56,7 +56,7 @@ const BlogLanding = () => {
         />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/react-flutter.jpg"
+          content="https://www.ilitesoft.com/react-flutter.jpg"
         />
         <meta
           name="twitter:image:alt"
@@ -64,7 +64,7 @@ const BlogLanding = () => {
         />
         <meta
           property="og:image"
-          content="https://www.radiansys.com/react-flutter.jpg"
+          content="https://www.ilitesoft.com/react-flutter.jpg"
         />
 
         <meta name="author" content="admin" />
@@ -74,7 +74,7 @@ const BlogLanding = () => {
 
         <meta
           property="og:title"
-          content="Radiansys | Software Development and Consulting Company"
+          content="ilitesoft | Software Development and Consulting Company"
         />
         <meta
           property="og:description"

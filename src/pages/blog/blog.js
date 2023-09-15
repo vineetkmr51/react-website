@@ -11,7 +11,7 @@ const BlogLanding = () => {
   return (
     <div className="blog-listing">
       <Helmet>
-        <title>Resources | Blogs | Radiansys</title>
+        <title>Resources | Blogs | ilitesoft</title>
         <meta property="og:title" content="about-us" />
         <meta
           property="og:description"

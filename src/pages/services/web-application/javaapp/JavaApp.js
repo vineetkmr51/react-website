@@ -9,12 +9,12 @@ const JavaApp = () => {
   return (
     <div className="services-page">
       <Helmet>
-        <title>Java Development Company | Services | Radiansys</title>
+        <title>Java Development Company | Services | ilitesoft</title>
         <meta property="og:title" content="Java Development" />
-        <meta property="og:description" content="Radiansys is a leader among Java App Development Company. Our experienced team offers best Java App Development Services for all your needs." />
+        <meta property="og:description" content="ilitesoft is a leader among Java App Development Company. Our experienced team offers best Java App Development Services for all your needs." />
         <meta
           property="og:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
 
         <meta name="twitter:card" content="summary" />
@@ -22,24 +22,24 @@ const JavaApp = () => {
         <meta name="twitter:description" content="" />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/wp-content/uploads/2019/03/inner-icons/consulting-services.png"
+          content="https://www.ilitesoft.com/wp-content/uploads/2019/03/inner-icons/consulting-services.png"
         />
         <meta name="geo.placename" content="Fremont" />
         <meta name="geo.position" content="37.550494;-121.974042" />
         <meta name="geo.region" content="US" />
         <meta
           name="description"
-          content="Radiansys is a leader among Java App Development Company. Our experienced team offers best Java App Development Services for all your needs."
+          content="ilitesoft is a leader among Java App Development Company. Our experienced team offers best Java App Development Services for all your needs."
         />
         <link
           rel="canonical"
-          href="https://www.radiansys.com/technologies/web-development-services/java-development"
+          href="https://www.ilitesoft.com/technologies/web-development-services/java-development"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.radiansys.com/technologies/web-development-services/java-development"
+          content="https://www.ilitesoft.com/technologies/web-development-services/java-development"
         />
       </Helmet>
         <InnerBanner />

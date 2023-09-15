@@ -14,7 +14,7 @@ function DreamContent() {
                     <div className="col-lg-12 col-xl-12">
                       <h2 className="mb-4">What to Expect</h2>
                       <p>
-                        As a React Development Company, Radiansys helps
+                        As a React Development Company, ilitesoft helps
                         businesses create long-lasting, multi-use web apps.
                         ReactJS empowers businesses to use code across any
                         platform they please and also provides the benefits of

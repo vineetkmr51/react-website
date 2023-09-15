@@ -13,38 +13,38 @@ const Smo = () => {
         <meta property="og:title" content="Python Development Services" />
         <meta
           property="og:description"
-          content="Radiansys has proven records for providing the best Python development services. We are a supreme Python development company to work with due to our major expertise."
+          content="ilitesoft has proven records for providing the best Python development services. We are a supreme Python development company to work with due to our major expertise."
         />
         <meta
           property="og:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
         <meta name="twitter:card" content="summary" />
         <meta name="twitter:title" content="Python Development Services" />
-        <meta name="twitter:description" content="Radiansys has proven records for providing the best Python development services. We are a supreme Python development company to work with due to our major expertise." />
+        <meta name="twitter:description" content="ilitesoft has proven records for providing the best Python development services. We are a supreme Python development company to work with due to our major expertise." />
         <meta
           name="twitter:image"
-          content="https://www.radiansys.com/consulting-services.png"
+          content="https://www.ilitesoft.com/consulting-services.png"
         />
 
         <meta
           name="description"
-          content="Radiansys has proven records for providing the best Python development services. We are a supreme Python development company to work with due to our major expertise."
+          content="ilitesoft has proven records for providing the best Python development services. We are a supreme Python development company to work with due to our major expertise."
         />
         <link
           rel="canonical"
-          href="https://www.radiansys.com/technologies/web-development-services/python-app-development"
+          href="https://www.ilitesoft.com/technologies/web-development-services/python-app-development"
         />
         <meta property="og:locale" content="en_US" />
         <meta property="og:type" content="article" />
         <meta
           property="og:url"
-          content="https://www.radiansys.com/technologies/web-development-services/python-app-development"
+          content="https://www.ilitesoft.com/technologies/web-development-services/python-app-development"
         />
-        <meta property="og:site_name" content="Radiansys" />
+        <meta property="og:site_name" content="ilitesoft" />
         <meta
           property="article:publisher"
-          content="https://www.facebook.com/Radiansys"
+          content="https://www.facebook.com/ilitesoft"
         />
 
       </Helmet>
