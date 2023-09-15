@@ -23,127 +23,137 @@ function Header() {
                 About
               </Link>
             </li>
-            <li>
-              <a className="nav-link scrollto" href="#services">
-                Services
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#portfolio">
-                Portfolio
-              </a>
-            </li>
-            <li>
-              <a className="nav-link scrollto" href="#team">
-                Team
-              </a>
-            </li>
-            <li>
-              <a href="blog.html">Blog</a>
-            </li>
-            {/* <li className="dropdown">
-              <a href="#">
-                <span>Drop Down</span> <i className="bi bi-chevron-down"></i>
-              </a>
-              <ul>
-                <li>
-                  <a href="#">Drop Down 1</a>
-                </li>
-                <li className="dropdown">
-                  <a href="#">
-                    <span>Deep Drop Down</span>{" "}
-                    <i className="bi bi-chevron-right"></i>
-                  </a>
-                  <ul>
-                    <li>
-                      <a href="#">Deep Drop Down 1</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 2</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 3</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 4</a>
-                    </li>
-                    <li>
-                      <a href="#">Deep Drop Down 5</a>
-                    </li>
-                  </ul>
-                </li>
-                <li>
-                  <a href="#">Drop Down 2</a>
-                </li>
-                <li>
-                  <a href="#">Drop Down 3</a>
-                </li>
-                <li>
-                  <a href="#">Drop Down 4</a>
-                </li>
-              </ul>
-            </li> */}
-
             <li className="dropdown megamenu">
-              <a href="#">
+              <Link to="/services" className="nav-link scrollto">
                 <span>Mega Menu</span> <i className="bi bi-chevron-down"></i>
-              </a>
+              </Link>
+
               <div className="dropdown-menu">
                 <div className="events-nav">
                   <div className="row">
                     <div className="text-left col-md-4 col-12">
                       <div className="link-heading">
-                        <a href="#">Mobile Apps</a>
+                        <Link to="/services/mobile-app-development">
+                          Mobile App
+                        </Link>
                       </div>
                       <ul>
-                        <li><a href="#">
-                          <div class="header-icon ios"></div>IOS App</a></li>
-                        <li><a href="#">
-                          <div class="header-icon android"></div>Android App</a></li>
-                        <li><a href="#"><div class="header-icon react-native"></div>React Native App</a></li>
-                        <li><a href="#"><div class="header-icon flutter"></div>flutter App</a></li>
+                        <li>
+                          <Link to="/services/mobile-app-development/ios-development">
+                            <div class="header-icon"></div>IOS App
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/mobile-app-development/android-app-development">
+                            <div class="header-icon "></div>Android App
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/mobile-app-development/react-native-app-development">
+                            <div class="header-icon"></div>React Native App
+                          </Link>
+                        </li>
+                        {/* <li>
+                          <Link to="/services/mobile-app-development/flutter-app-development">
+                            <div class="header-icon"></div>flutter App
+                          </Link>
+                        </li> */}
+                      </ul>
+                      <div className="link-heading">
+                        <Link to="/services/mobile-app-development">
+                          Integrations
+                        </Link>
+                      </div>
+                      <ul>
+                        <li>
+                          <Link to="/services/mobile-app-development">
+                            <div class="header-icon"></div>Payment Gateway
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                     <div className="text-left col-md-4 col-12">
                       <div className="link-heading">
-                        <a href="#">Web Apps</a>
+                        <Link to="/services/web-development-services">
+                          Web App
+                        </Link>
                       </div>
                       <ul>
-                        <li><a href="#">
-                          <div class="header-icon fullstack"></div>Full Stack</a></li>
-                        <li><a href="#">
-                          <div class="header-icon reactjs"></div>React Js</a></li>
-                        <li><a href="#"><div class="header-icon nodejs"></div>Node Js</a></li>
-                        <li><a href="#"><div class="header-icon vuejs"></div>Vue Js </a></li>
-                        <li><a href="#"><div class="header-icon java"></div>Java </a></li>
-                        <li><a href="#"><div class="header-icon php"></div> PHP  </a></li>
-                        <li><a href="#"><div class="header-icon phython"></div> Phython  </a></li>
+                        <li>
+                          <Link to="/services/web-development-services/full-stack-development">
+                            <div class="header-icon"></div>Full Stack
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/web-development-services/react-development">
+                            <div class="header-icon"></div>React Js
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/web-development-services/node-development">
+                            <div class="header-icon"></div>Node Js
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/web-development-services/vue-development">
+                            <div class="header-icon"></div>Vue Js
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/web-development-services/java-development">
+                            <div class="header-icon"></div>Java
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/web-development-services/php-development">
+                            <div class="header-icon"></div>PHP
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/web-development-services/python-app-development">
+                            <div class="header-icon"></div>Phython
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                     <div className="text-left col-md-4 col-12">
                       <div className="link-heading">
-                        <a href="#">Digital Marketing</a>
+                        <Link to="/services/digital-marketing-services">
+                          Digital Marketing
+                        </Link>
                       </div>
                       <ul>
-                        <li><a href="#">Column 1 link 1</a></li>
-                        <li><a href="#">Column 1 link 2</a></li>
-                        <li><a href="#">Column 1 link 3</a></li>
+                        <li>
+                          <Link to="/services/digital-marketing-services/search-engine-optimization">
+                            <div class="header-icon"></div>SEO
+                          </Link>
+                        </li>
+                        <li>
+                          <Link to="/services/digital-marketing-services/social-media-optimization">
+                            <div class="header-icon"></div>SMO
+                          </Link>
+                        </li>
                       </ul>
                     </div>
                   </div>
+                </div>
               </div>
-              </div>
+            </li>
+            <li>
+              <Link to="/portfolio" className="nav-link scrollto">
+                Portfolio
+              </Link>
             </li>
 
             <li>
-              <a className="nav-link scrollto" href="#contact">
-                Contact
-              </a>
+              <Link to="/blog" className="nav-link scrollto">
+                Blog
+              </Link>
             </li>
             <li>
-              <a className="getstarted scrollto" href="#about">
-                Get Started
-              </a>
+              <Link to="/contact-us" className="getstarted scrollto">
+                Contact Us
+              </Link>
             </li>
           </ul>
           <i className="bi bi-list mobile-nav-toggle"></i>

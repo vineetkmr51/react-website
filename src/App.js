@@ -67,11 +67,6 @@ function App() {
             />
             <Route
               exact
-              path="/services/web-app-development/flutter-app-development"
-              component={FlutterApp}
-            />
-            <Route
-              exact
               path="/services/web-development-services"
               component={WebApplication}
             />
