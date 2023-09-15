@@ -25,7 +25,7 @@ function Header() {
             </li>
             <li className="dropdown megamenu">
               <Link to="/services" className="nav-link scrollto">
-                <span>Mega Menu</span> <i className="bi bi-chevron-down"></i>
+                <span>Services</span> <i className="bi bi-chevron-down"></i>
               </Link>
 
               <div className="dropdown-menu">
