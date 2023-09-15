@@ -24,7 +24,9 @@ import WebApplicationPython from "./pages/services/web-application/python/Python
 import DigitalMarketing from "./pages/services/digital-marketing/digital-marketing";
 import DigitalMarketingSeo from "./pages/services/digital-marketing/seo/Seo";
 import DigitalMarketingSmo from "./pages/services/digital-marketing/smo/Smo";
-import Contact from './pages/contact/contact';
+import BlogLanding from "./pages/blog/blog";
+import UiUxDesign from "./pages/blog-detail/ui-ux-design/UiUxDesign";
+import Contact from "./pages/contact/contact";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
 
 function App() {
@@ -123,7 +125,13 @@ function App() {
               path="/services/digital-marketing-services/social-media-optimization"
               component={DigitalMarketingSmo}
             />
-<Route exact path="/contact-us" component={Contact} />
+            <Route exact path="/contact-us" component={Contact} />
+            <Route exact path="/blog" component={BlogLanding} />
+            <Route
+              exact
+              path="/blog/ui-ux-design-trends-2022"
+              component={UiUxDesign}
+            />
             <Route exact path="*" component={PageNotFound} />
           </Switch>
         </Suspense>
