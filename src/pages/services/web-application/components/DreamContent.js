@@ -3,7 +3,7 @@ import { Container, Col, Row } from "react-bootstrap";
 
 function DreamContent() {
   return (
-    <div className="dream-section">
+    <div className="building-process d-flex align-items-center">
       <Container>
         <div class="padding-xl">
           <Row>

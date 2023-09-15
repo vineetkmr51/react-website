@@ -9,7 +9,7 @@ function InnerBanner() {
       <div className="container">
         <div className="row">
           <div className="col-lg-6 d-flex flex-column justify-content-center">
-          Full Stack Development
+         <h1> Full Stack Development</h1>
                       </div>
           <div
             className="col-lg-6 hero-img"

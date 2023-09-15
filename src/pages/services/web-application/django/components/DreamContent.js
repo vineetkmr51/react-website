@@ -1,10 +1,9 @@
 import React from 'react';
 import { Container, Col, Row } from 'react-bootstrap';
-import DjangoLogo from '../../../../../assets/images/django-logo.png';
 
 function DreamContent() {
   return (
-    <div className="dream-section">
+    <div className="building-process d-flex align-items-center">
       <Container>
         <div class="padding-xl">
           <Row>
