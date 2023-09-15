@@ -14,7 +14,7 @@ function Header() {
         <nav id="navbar" className="navbar">
           <ul>
             <li>
-              <Link to="/about-us" className="nav-link scrollto active">
+              <Link to="/" className="nav-link scrollto active">
                 Home
               </Link>
             </li>

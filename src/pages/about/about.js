@@ -5,7 +5,8 @@ import WhoWeAre from './components/WhoWeAre';
 function About() {
     return (
       <div>
-        testing
+        <Banner/>
+        <WhoWeAre/>
       </div>
     )
   }
