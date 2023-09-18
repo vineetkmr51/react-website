@@ -14,14 +14,14 @@ function Header() {
         <nav id="navbar" className="navbar">
           <ul>
             <li>
-              <a className="nav-link scrollto active" href="#hero">
+              <Link to="/about-us" className="nav-link scrollto active">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a className="nav-link scrollto" href="#about">
+              <Link to="/about-us" className="nav-link scrollto">
                 About
-              </a>
+              </Link>
             </li>
             <li>
               <a className="nav-link scrollto" href="#services">
