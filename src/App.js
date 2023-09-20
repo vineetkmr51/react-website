@@ -6,6 +6,7 @@ import ScrollToTop from "./components/ScrollToTop/ScrollToTop";
 import Header from "./components/header/Header";
 import MainPage from "./pages/home";
 import About from "./pages/about/about";
+import Services from "./pages/services/services";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
 
 function App() {
@@ -16,10 +17,9 @@ function App() {
         <Header />
         <Suspense fallback={<div>test...</div>}>
           <Switch>
-         
             <Route exact path="/" component={MainPage} />
-
             <Route exact path="/about-us" component={About} />
+            <Route exact path="/services" component={Services} />
             <Route exact path="*" component={PageNotFound} />
           </Switch>
         </Suspense>
