@@ -41,7 +41,7 @@ function Header() {
             <li>
               <a href="blog.html">Blog</a>
             </li>
-            <li className="dropdown">
+            {/* <li className="dropdown">
               <a href="#">
                 <span>Drop Down</span> <i className="bi bi-chevron-down"></i>
               </a>
@@ -82,34 +82,57 @@ function Header() {
                   <a href="#">Drop Down 4</a>
                 </li>
               </ul>
-            </li>
+            </li> */}
 
             <li className="dropdown megamenu">
               <a href="#">
                 <span>Mega Menu</span> <i className="bi bi-chevron-down"></i>
               </a>
-              <ul>
-                <li>
-                  <a href="#">Column 1 link 1</a>
-                  <a href="#">Column 1 link 2</a>
-                  <a href="#">Column 1 link 3</a>
-                </li>
-                <li>
-                  <a href="#">Column 2 link 1</a>
-                  <a href="#">Column 2 link 2</a>
-                  <a href="#">Column 3 link 3</a>
-                </li>
-                <li>
-                  <a href="#">Column 3 link 1</a>
-                  <a href="#">Column 3 link 2</a>
-                  <a href="#">Column 3 link 3</a>
-                </li>
-                <li>
-                  <a href="#">Column 4 link 1</a>
-                  <a href="#">Column 4 link 2</a>
-                  <a href="#">Column 4 link 3</a>
-                </li>
-              </ul>
+              <div className="dropdown-menu">
+                <div className="events-nav">
+                  <div className="row">
+                    <div className="text-left col-md-4 col-12">
+                      <div className="link-heading">
+                        <a href="#">Mobile Apps</a>
+                      </div>
+                      <ul>
+                        <li><a href="#">
+                          <div class="header-icon ios"></div>IOS App</a></li>
+                        <li><a href="#">
+                          <div class="header-icon android"></div>Android App</a></li>
+                        <li><a href="#"><div class="header-icon react-native"></div>React Native App</a></li>
+                        <li><a href="#"><div class="header-icon flutter"></div>flutter App</a></li>
+                      </ul>
+                    </div>
+                    <div className="text-left col-md-4 col-12">
+                      <div className="link-heading">
+                        <a href="#">Web Apps</a>
+                      </div>
+                      <ul>
+                        <li><a href="#">
+                          <div class="header-icon fullstack"></div>Full Stack</a></li>
+                        <li><a href="#">
+                          <div class="header-icon reactjs"></div>React Js</a></li>
+                        <li><a href="#"><div class="header-icon nodejs"></div>Node Js</a></li>
+                        <li><a href="#"><div class="header-icon vuejs"></div>Vue Js </a></li>
+                        <li><a href="#"><div class="header-icon java"></div>Java </a></li>
+                        <li><a href="#"><div class="header-icon php"></div> PHP  </a></li>
+                        <li><a href="#"><div class="header-icon phython"></div> Phython  </a></li>
+                      </ul>
+                    </div>
+                    <div className="text-left col-md-4 col-12">
+                      <div className="link-heading">
+                        <a href="#">Digital Marketing</a>
+                      </div>
+                      <ul>
+                        <li><a href="#">Column 1 link 1</a></li>
+                        <li><a href="#">Column 1 link 2</a></li>
+                        <li><a href="#">Column 1 link 3</a></li>
+                      </ul>
+                    </div>
+                  </div>
+              </div>
+              </div>
             </li>
 
             <li>
