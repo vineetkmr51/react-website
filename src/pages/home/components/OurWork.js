@@ -18,94 +18,62 @@ function OurWork() {
           data-aos-delay="200"
         >
           <div className="col-lg-6 col-md-6 portfolio-item filter-app">
-            <div className="portfolio-wrap">
-              <img src={Portfolio1} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
-                <div className="portfolio-links">
-                  <a
-                    href={Portfolio1}
-                    data-gallery="portfolioGallery"
-                    className="portfokio-lightbox"
-                    title="App 1"
-                  >
-                    <i className="bi bi-plus"></i>
-                  </a>
-                  <a href="portfolio-details.html" title="More Details">
-                    <i className="bi bi-link"></i>
-                  </a>
-                </div>
+            <div className="portfolio-wrap right-top">
+              <div className="port-image">
+                <img src={Portfolio1} className="img-fluid" alt="" />
               </div>
+              <a href="#" className="portfolio-info">
+                <h4>Phygi Survey Admin</h4>
+                <p>Web Application</p>
+                <div className="portfolio-links">
+                  <i className="bi bi-arrow-right-circle"></i>
+                </div>
+              </a>
             </div>
           </div>
 
           <div className="col-lg-6 col-md-6 portfolio-item filter-web">
-            <div className="portfolio-wrap">
-              <img src={Portfolio2} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
-                <div className="portfolio-links">
-                  <a
-                    href={Portfolio2}
-                    data-gallery="portfolioGallery"
-                    className="portfokio-lightbox"
-                    title="Web 3"
-                  >
-                    <i className="bi bi-plus"></i>
-                  </a>
-                  <a href="portfolio-details.html" title="More Details">
-                    <i className="bi bi-link"></i>
-                  </a>
-                </div>
+            <div className="portfolio-wrap right-bottom">
+              <div className="port-image">
+                <img src={Portfolio2} className="img-fluid" alt="" />
               </div>
+              <a href="#" className="portfolio-info">
+                <h4>Phygi Survey Admin</h4>
+                <p>Web Application</p>
+                <div className="portfolio-links">
+                  <i className="bi bi-arrow-right-circle"></i>
+                </div>
+              </a>
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 portfolio-item filter-app">
-            <div className="portfolio-wrap">
-              <img src={Portfolio3} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
-                <div className="portfolio-links">
-                  <a
-                    href={Portfolio3}
-                    data-gallery="portfolioGallery"
-                    className="portfokio-lightbox"
-                    title="App 2"
-                  >
-                    <i className="bi bi-plus"></i>
-                  </a>
-                  <a href="portfolio-details.html" title="More Details">
-                    <i className="bi bi-link"></i>
-                  </a>
-                </div>
+          <div className="col-lg-6 col-md-6 portfolio-item filter-web">
+            <div className="portfolio-wrap right-bottom">
+              <div className="port-image">
+                <img src={Portfolio3} className="img-fluid" alt="" />
               </div>
+              <a href="#" className="portfolio-info">
+                <h4>Phygi Survey Admin</h4>
+                <p>Web Application</p>
+                <div className="portfolio-links">
+                  <i className="bi bi-arrow-right-circle"></i>
+                </div>
+              </a>
             </div>
           </div>
 
-          <div className="col-lg-6 col-md-6 portfolio-item filter-card">
-            <div className="portfolio-wrap">
-              <img src={Portfolio4} className="img-fluid" alt="" />
-              <div className="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
-                <div className="portfolio-links">
-                  <a
-                    href={Portfolio4}
-                    data-gallery="portfolioGallery"
-                    className="portfokio-lightbox"
-                    title="Card 2"
-                  >
-                    <i className="bi bi-plus"></i>
-                  </a>
-                  <a href="portfolio-details.html" title="More Details">
-                    <i className="bi bi-link"></i>
-                  </a>
-                </div>
+          <div className="col-lg-6 col-md-6 portfolio-item filter-web">
+            <div className="portfolio-wrap right-bottom">
+              <div className="port-image">
+                <img src={Portfolio4} className="img-fluid" alt="" />
               </div>
+              <a href="#" className="portfolio-info">
+                <h4>Phygi Survey Admin</h4>
+                <p>Web Application</p>
+                <div className="portfolio-links">
+                  <i className="bi bi-arrow-right-circle"></i>
+                </div>
+              </a>
             </div>
           </div>
         </div>

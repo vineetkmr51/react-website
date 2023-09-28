@@ -99,7 +99,7 @@ h6 {
 # Sections
 --------------------------------------------------------------*/
 section {
-  padding: 60px 0 10px 0;
+  padding: 60px 0 20px 0;
   overflow: hidden;
 }
 
@@ -157,7 +157,7 @@ section {
     width: 100%;
     padding-bottom: 80px;
     font-weight: bold;
-    color:#999;
+    color: #999;
     font-style: italic;
   }
 }
@@ -920,138 +920,158 @@ section {
 .portfolio .portfolio-wrap {
   transition: 0.3s;
   position: relative;
-  overflow: hidden;
   z-index: 1;
   background: rgba(255, 255, 255, 0.75);
-}
 
-.portfolio .portfolio-wrap::before {
-  content: "";
-  background: rgba(255, 255, 255, 0.75);
-  position: absolute;
-  left: 30px;
-  right: 30px;
-  top: 30px;
-  bottom: 30px;
-  transition: all ease-in-out 0.3s;
-  z-index: 2;
-  opacity: 0;
-}
-
-.portfolio .portfolio-wrap img {
-  transition: 1s;
-}
-
-.portfolio .portfolio-wrap .portfolio-info {
-  opacity: 0;
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  text-align: center;
-  z-index: 3;
-  transition: all ease-in-out 0.3s;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
-
-.portfolio .portfolio-wrap .portfolio-info::before {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  top: 35px;
-  left: 35px;
-  border-top: 3px solid rgba(1, 41, 112, 0.2);
-  border-left: 3px solid rgba(1, 41, 112, 0.2);
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio .portfolio-wrap .portfolio-info::after {
-  display: block;
-  content: "";
-  width: 48px;
-  height: 48px;
-  position: absolute;
-  bottom: 35px;
-  right: 35px;
-  border-bottom: 3px solid rgba(1, 41, 112, 0.2);
-  border-right: 3px solid rgba(1, 41, 112, 0.2);
-  transition: all 0.5s ease 0s;
-  z-index: 9994;
-}
-
-.portfolio .portfolio-wrap .portfolio-info h4 {
-  font-size: 20px;
-  color: $primary-color;
-  font-weight: 700;
-}
-
-.portfolio .portfolio-wrap .portfolio-info p {
-  color: $primary-color;
-  font-weight: 600;
-  font-size: 14px;
-  text-transform: uppercase;
-  padding: 0;
-  margin: 0;
-}
-
-.portfolio .portfolio-wrap .portfolio-links {
-  text-align: center;
-  z-index: 4;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a {
-  color: #fff;
-  background: $primary-color;
-  margin: 10px 2px;
-  width: 36px;
-  height: 36px;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  border-radius: 50%;
-  transition: 0.3s;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a i {
-  font-size: 24px;
-  line-height: 0;
-}
-
-.portfolio .portfolio-wrap .portfolio-links a:hover {
-  background: #5969f3;
-}
-
-.portfolio .portfolio-wrap:hover img {
-  transform: scale(1.1);
-}
-
-.portfolio .portfolio-wrap:hover::before {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info {
-  opacity: 1;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info::before {
-  top: 15px;
-  left: 15px;
-}
-
-.portfolio .portfolio-wrap:hover .portfolio-info::after {
-  bottom: 15px;
-  right: 15px;
+  .port-image {
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  &::before {
+    content: "";
+    background: transparent;
+    position: absolute;
+    border-radius: 10px;
+    transition: all ease-in-out 0.3s;
+    z-index: 2;
+    opacity: 0;
+    // bottom: 0;
+    // left: 0;
+    right: 0;
+    top: 0;
+  }
+  img {
+    transition: 1s;
+  }
+  .portfolio-info {
+    opacity: 0;
+    position: absolute;
+    top: 0;
+    right: 0;
+    // left: 0;
+    // bottom: 0;
+    text-align: left;
+    z-index: 3;
+    padding: 0px 50px 20px 30px;
+    transition: all ease-in-out 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    &::before {
+      display: block;
+      content: "";
+      width: 48px;
+      height: 48px;
+      position: absolute;
+      top: 35px;
+      left: 35px;
+      border-top: 3px solid #fff;
+      border-left: 3px solid #fff;
+      transition: all 0.5s ease 0s;
+      opacity: 0.5;
+      z-index: 9994;
+    }
+    // &::after {
+    //   display: block;
+    //   content: "";
+    //   width: 48px;
+    //   height: 48px;
+    //   position: absolute;
+    //   bottom: 35px;
+    //   right: 35px;
+    //   border-bottom: 3px solid rgba(1, 41, 112, 0.2);
+    //   border-right: 3px solid rgba(1, 41, 112, 0.2);
+    //   transition: all 0.5s ease 0s;
+    //   z-index: 9994;
+    // }
+    h4 {
+      font-size: 30px;
+      color: $white;
+      font-weight: normal;
+    }
+    p {
+      color: $white;
+      font-weight: normal;
+      font-size: 16px;
+      text-transform: capitalize;
+      padding: 0;
+      margin: 0;
+    }
+  }
+  .portfolio-links {
+    position: absolute;
+    right: 19px;
+    bottom: 16px;
+    i {
+      color: #fff;
+      transition: 0.3s;
+      font-size: 30px;
+      line-height: 0;
+    }
+  }
+  &:hover {
+    &::before {
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      width: 410px;
+      height: 220px;
+      background: $primary-color;
+      opacity: 1;
+    }
+    img {
+      transform: scale(1.1);
+    }
+    .portfolio-info {
+      opacity: 1;
+      width: 410px;
+      height: 220px;
+      &::before {
+        top: 15px;
+        left: 15px;
+      }
+      &::after {
+        bottom: 15px;
+        right: 15px;
+      }
+    }
+  }
+  &.right-top {
+    &:hover {
+      &::before {
+        right: -20px;
+        top: -30px;
+        left: auto;
+        bottom: auto;
+      }
+      .portfolio-info {
+        opacity: 1;
+        right: -20px;
+        top: -30px;
+        left: auto;
+        bottom: auto;
+      }
+    }
+  }
+  &.right-bottom {
+    &:hover {
+      &::before {
+        right: -20px;
+        bottom: -20px;
+        left: auto;
+        top: auto;
+      }
+      .portfolio-info {
+        opacity: 1;
+        right: -20px;
+        bottom: -20px;
+        left: auto;
+        top: auto;
+      }
+    }
+  }
 }
 
 /*--------------------------------------------------------------
