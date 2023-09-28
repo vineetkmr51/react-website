@@ -9,8 +9,8 @@ function OurWork() {
     <section id="portfolio" className="portfolio">
       <div className="container" data-aos="fade-up">
         <div className="section-header">
-          <h2>Portfolio</h2>
-          <p>Check our latest work</p>
+          <h2>Featured Projects</h2>
+          {/* <p>Check our latest work</p> */}
         </div>
         <div
           className="row gy-4 portfolio-container"

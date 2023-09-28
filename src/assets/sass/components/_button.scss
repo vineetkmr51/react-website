@@ -8,7 +8,7 @@
   color: $white;
   font-size: 16px;
   letter-spacing: 1px;
-  font-family: $narin;
+  font-family:   $narin-medium;
   background: $primary-color;
   min-height: 44px;
   display: flex;
@@ -20,14 +20,14 @@
     background: $primary-color;
 
     &:hover {
-      background: #8e72fe;
+      background: $color-lotus;
     }
   }
 
   &.btn-secondary {
     color: $white;
     background: $dark-bg;
-    font-family: $narin;
+    font-family:   $narin-medium;
     font-weight: normal;
 
     &:hover {

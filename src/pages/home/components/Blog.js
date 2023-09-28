@@ -10,8 +10,8 @@ function Blog() {
       <div className="container" data-aos="fade-up">
 
         <header className="section-header">
-          <h2>Blog</h2>
-          <p>Recent posts form our Blog</p>
+          <h2>Insights Into The Tech Novelties</h2>
+          {/* <p>Recent posts form our Blog</p> */}
         </header>
 
         <div className="row">

@@ -1,37 +1,33 @@
 /*--------------------------------------------------------------
 # Header
 --------------------------------------------------------------*/
-header {
+.header {
   width: 100%;
   position: fixed;
   z-index: 99;
-  padding: 14px 0;
+  padding: 0;
   background: #fff;
   transition: all 0.5s;
   box-shadow: 0 0 2px rgb(0 0 0 / 13%), 0 4px 12px rgba(0, 0, 0, 0.36), inset 0 0 0 0.5px rgba(237, 237, 237, 0.36);
-}
-
-.header.header-scrolled {
-  background: #fff;
-  padding: 15px 0;
-  box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
-}
-
-.header .logo {
-  line-height: 0;
-}
-
-.header .logo img {
-  max-height: 40px;
-  margin-right: 6px;
-}
-
-.header .logo span {
-  font-size: 30px;
-  letter-spacing: 1px;
-  color: #012970;
-  font-family: "Narin-Medium";
-  margin-top: 3px;
+  .logo {
+    line-height: 0;
+    img {
+      max-height: 40px;
+      margin-right: 6px;
+    }
+    span {
+      font-size: 30px;
+      letter-spacing: 1px;
+      color: #012970;
+      font-family: "Narin-Medium";
+      margin-top: 3px;
+    }
+  }
+  &.header-scrolled {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  }
 }
 
 /*--------------------------------------------------------------
@@ -62,8 +58,8 @@ header {
   align-items: center;
   padding: 10px 0 10px 30px;
   font-family: "Narin-Medium";
-  font-size: 16px;
-  color: #434343;
+  font-size: 18px;
+  color: #242424;
   white-space: nowrap;
   text-align: left;
   transition: 0.3s;
@@ -86,16 +82,17 @@ header {
 .navbar .getstarted,
 .navbar .getstarted:focus {
   background: $primary-color;
-  padding: 8px 20px;
+  padding: 12px 20px;
   margin-left: 30px;
   border-radius: 4px;
+  font-family: $narin-medium;
   color: #fff;
 }
 
 .navbar .getstarted:hover,
 .navbar .getstarted:focus:hover {
   color: #fff;
-  background: #5969f3;
+  background: $color-lotus;
 }
 
 .navbar .dropdown {

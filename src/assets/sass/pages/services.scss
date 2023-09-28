@@ -56,4 +56,21 @@
     font-size: 1.5rem;
     font-family: $narin-medium;
   }
+  a{
+    transition: 0.5s;
+    span {
+      font-family: $narin-medium;
+    }
+    i {
+      margin-left: 5px;
+      font-size: 18px;
+      transition: 0.3s;
+    }
+    &:hover {
+      background: $color-lotus;
+      i {
+        transform: translateX(5px);
+      }
+    }
+  }
 }

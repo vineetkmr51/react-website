@@ -22,14 +22,14 @@ function Consultation() {
                 <h5 className=" mb-1">
                   Have a project in mind? Schedule a free consultation today.
                 </h5>
-                <button
-                  onClick={() => {
-                    history.push({pathname: "/contact-sales", state: {scrollPos: window.scrollY, from: "/our-customers"}});
-                  }}
+                <Link
+                  to="/contact-us"
                   className="btn mt-4 ms-5 mt-md-0  btn-primary"
                 >
-                  Contact Sales
-                </button>
+                  <span> Contact Sales</span>
+                            <i className="bi bi-arrow-right"></i>
+                 
+                </Link>
               </div>
             </Col>
           </Row>
