@@ -21,7 +21,7 @@ const content = [
   [
     "Basics. For every language one should Start with the basic concepts such as variables, data types, functions, loops, and conditionals",
     "Vanilla JavaScript is a core of the JavaScript language",
-    "JavaScript is an object-oriented, interpreted scripting language. It’s a client-side scripting language that is used to develop dynamic web pages.",
+    "JavaScript is an object-oriented, interpreted scripting language. ",
     "So, Vanilla JS is plain JavaScript without any library and framework.",
   ],
 ];
