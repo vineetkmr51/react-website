@@ -27,6 +27,7 @@ import DigitalMarketingSmo from "./pages/services/digital-marketing/smo/Smo";
 import BlogLanding from "./pages/blog/blog";
 import UiUxDesign from "./pages/blog-detail/ui-ux-design/UiUxDesign";
 import Contact from "./pages/contact/contact";
+import Practice from "./pages/practice/practice";
 import PageNotFound from "./pages/page-not-found/PageNotFound";
 
 function App() {
@@ -121,6 +122,7 @@ function App() {
               component={DigitalMarketingSmo}
             />
             <Route exact path="/contact-us" component={Contact} />
+            <Route exact path="/demo" component={Practice} />
             <Route exact path="/blog" component={BlogLanding} />
             <Route
               exact
