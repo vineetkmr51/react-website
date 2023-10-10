@@ -1,0 +1,342 @@
+/*--------------------------------------------------------------
+# Header
+--------------------------------------------------------------*/
+.header {
+  width: 100%;
+  position: fixed;
+  z-index: 99;
+  padding: 0;
+  background: #fff;
+  transition: all 0.5s;
+  box-shadow: 0 0 2px rgb(0 0 0 / 13%), 0 4px 12px rgba(0, 0, 0, 0.36), inset 0 0 0 0.5px rgba(237, 237, 237, 0.36);
+  .logo {
+    line-height: 0;
+    img {
+      max-height: 40px;
+      margin-right: 6px;
+    }
+    span {
+      font-size: 30px;
+      letter-spacing: 1px;
+      color: #012970;
+      font-family: "Narin-Medium";
+      margin-top: 3px;
+    }
+  }
+  &.header-scrolled {
+    background: #fff;
+    padding: 15px 0;
+    box-shadow: 0px 2px 20px rgba(1, 41, 112, 0.1);
+  }
+}
+
+/*--------------------------------------------------------------
+# Navigation Menu
+--------------------------------------------------------------*/
+/**
+* Desktop Navigation 
+*/
+.navbar {
+  padding: 0;
+}
+
+.navbar ul {
+  margin: 0;
+  padding: 0;
+  display: flex;
+  list-style: none;
+  align-items: center;
+}
+
+.navbar li {
+  position: relative;
+}
+
+.navbar a.nav-link,
+.navbar a.nav-link :focus {
+  display: flex;
+  align-items: center;
+  padding: 10px 0 10px 30px;
+  font-family: "Narin-Medium";
+  font-size: 18px;
+  color: #242424;
+  white-space: nowrap;
+  text-align: left;
+  transition: 0.3s;
+}
+
+.navbar a.nav-link i,
+.navbar a.nav-link:focus i {
+  font-size: 12px;
+  line-height: 0;
+  margin-left: 5px;
+}
+
+.navbar a:hover,
+.navbar .active,
+.navbar .active:focus,
+.navbar li:hover > a {
+  color: $primary-color;
+}
+
+.navbar .getstarted,
+.navbar .getstarted:focus {
+  background: $primary-color;
+  padding: 12px 20px;
+  margin-left: 30px;
+  border-radius: 4px;
+  font-family: $narin-medium;
+  color: #fff;
+}
+
+.navbar .getstarted:hover,
+.navbar .getstarted:focus:hover {
+  color: #fff;
+  background: $color-lotus;
+}
+
+.navbar .dropdown {
+  margin-top: 5px;
+  right: 0;
+  padding: 10px;
+  display: flex;
+  .dropdown-menu {
+    display: block;
+    position: absolute;
+    min-width: 802px;
+    left: -240px;
+    top: calc(100% + 30px);
+    margin: 0;
+    z-index: 99;
+    opacity: 0;
+    visibility: hidden;
+    background: #fff;
+    box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+    transition: 0.3s;
+    border-radius: 20px;
+    .events-nav {
+      padding: 20px;
+    }
+  }
+  .link-heading {
+    a {
+      padding: 0;
+      font-size: 15px;
+      font-family: "Narin-Medium";
+      text-transform: uppercase;
+      color: $text-grey;
+      font-weight: bold;
+    }
+  }
+  ul {
+    width: 100%;
+    display: block;
+    margin-bottom: 20px;
+    li {
+      display: flex;
+
+      a {
+        padding: 10px 0;
+        font-size: 15px;
+        text-transform: none;
+        font-family: $narin;
+        width: 100%;
+        color: $text-grey;
+        text-transform: capitalize;
+        display: flex;
+        .header-icon {
+          display: flex;
+          align-content: center;
+          align-items: center;
+          justify-content: flex-start;
+          width: 16px;
+          height: 16px;
+          margin: 2px 6px 0 0;
+          background-color: #c5becd;
+          border-radius: 30% 70% 70% 30%/30% 30% 70% 70%;     
+          overflow: hidden;
+        }
+        &:hover {
+          .header-icon {
+            background-color: $primary-color;
+            animation: morphing 3s infinite;
+          }
+        
+        }
+        &:hover{
+          color: $primary-color;
+        }
+      }
+    }
+    i {
+      display: flex;
+      font-size: 12px;
+    }
+  }
+  &.megamenu {
+    position: static;
+  }
+}
+@keyframes morphing {
+  0% {
+    border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+    box-shadow :15px 15px 50px rgba(0,0,0,0.2);
+  }
+  25% { 
+    border-radius: 58% 42% 75% 25% / 76% 46% 54% 24%;
+  }
+  50% {
+    border-radius: 50% 50% 33% 67% / 55% 27% 73% 45%;
+    box-shadow :-10px -5px 50px rgba(0,0,0,0.2);
+  }
+  75% {
+    border-radius: 33% 67% 58% 42% / 33% 38% 92% 97%;		
+  }
+}
+.navbar .dropdown:hover > .dropdown-menu {
+  opacity: 1;
+  top: 100%;
+  visibility: visible;
+}
+
+.navbar .dropdown .dropdown .dropdown-menu {
+  top: 0;
+  left: calc(100% - 30px);
+  visibility: hidden;
+}
+
+.navbar .dropdown .dropdown:hover > .dropdown-menu {
+  opacity: 1;
+  top: 0;
+  left: 100%;
+  visibility: visible;
+}
+
+@media (max-width: 1366px) {
+  .navbar .dropdown .dropdown .dropdown-menu {
+    left: -90%;
+  }
+
+  .navbar .dropdown .dropdown:hover > .dropdown-menu {
+    left: -100%;
+  }
+}
+
+/**
+* Mobile Navigation 
+*/
+.mobile-nav-toggle {
+  color: #012970;
+  font-size: 28px;
+  cursor: pointer;
+  display: none;
+  line-height: 0;
+  transition: 0.5s;
+}
+
+.mobile-nav-toggle.bi-x {
+  color: #fff;
+}
+
+@media (max-width: 1200px) {
+  .mobile-nav-toggle {
+    display: block;
+  }
+
+  .navbar ul {
+    display: none;
+  }
+}
+
+.navbar-mobile {
+  position: fixed;
+  overflow: hidden;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  background: rgba(1, 22, 61, 0.9);
+  transition: 0.3s;
+}
+
+.navbar-mobile .mobile-nav-toggle {
+  position: absolute;
+  top: 15px;
+  right: 15px;
+}
+
+.navbar-mobile ul {
+  display: block;
+  position: absolute;
+  top: 55px;
+  right: 15px;
+  bottom: 15px;
+  left: 15px;
+  padding: 10px 0;
+  border-radius: 10px;
+  background-color: #fff;
+  overflow-y: auto;
+  transition: 0.3s;
+}
+
+.navbar-mobile a,
+.navbar-mobile a:focus {
+  padding: 10px 20px;
+  font-size: 15px;
+  color: #012970;
+}
+
+.navbar-mobile a:hover,
+.navbar-mobile .active,
+.navbar-mobile li:hover > a {
+  color: $primary-color;
+}
+
+.navbar-mobile .getstarted,
+.navbar-mobile .getstarted:focus {
+  margin: 15px;
+}
+
+.navbar-mobile .dropdown ul {
+  position: static;
+  display: none;
+  margin: 10px 20px;
+  padding: 10px 0;
+  z-index: 99;
+  opacity: 1;
+  visibility: visible;
+  background: #fff;
+  box-shadow: 0px 0px 30px rgba(127, 137, 161, 0.25);
+}
+
+.navbar-mobile .dropdown ul li {
+  min-width: 200px;
+}
+
+.navbar-mobile .dropdown ul a {
+  padding: 10px 20px;
+}
+
+.navbar-mobile .dropdown ul a i {
+  font-size: 12px;
+}
+
+.navbar-mobile .dropdown ul a:hover,
+.navbar-mobile .dropdown ul .active:hover,
+.navbar-mobile .dropdown ul li:hover > a {
+  color: $primary-color;
+}
+
+.navbar-mobile .dropdown > .dropdown-active {
+  display: block;
+}
+
+/* for mobile */
+@media only screen and (max-width: 767px) {
+}
+
+@media (min-width: 991px) and (max-width: 1279px) {
+}
+
+@media (min-width: 1280px) and (max-width: 1500px) {
+}

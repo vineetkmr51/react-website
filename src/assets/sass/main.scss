@@ -1,0 +1,25 @@
+@import "~bootstrap/scss/bootstrap";
+@import url("https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css");
+@import url("https://cdn.jsdelivr.net/npm/remixicon@2.2.0/fonts/remixicon.css");
+@import "variables/variables";
+@import "components/header";
+@import "base/base";
+@import "utils/fonts";
+@import "utils/helpers";
+@import "utils/override";
+@import "components/button";
+
+@import "components/footer";
+// @import "components/innerBanner";
+// @import "pages/landing";
+@import "pages/services";
+@import "pages/about";
+// @import "pages/feature";
+// @import "pages/customers";
+@import "pages/contact";
+// @import "pages/career";
+@import "pages/blog";
+// @import "pages/case-study";
+// @import "pages/sales";
+@import "pages/demo";
+// @import "pages/credibill";

@@ -1,0 +1,476 @@
+// .dark-theme header .navbar {
+//     display: none;
+// }
+#wrapper {
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  .close-icon {
+    button {
+      background: #7856ff;
+      border: none;
+    }
+
+    position: fixed;
+    right: 50px;
+    z-index: 99;
+    top: 50px;
+    border-radius: 50%;
+    background: #7856ff;
+    padding: 10px;
+    img {
+      width: 40px;
+    }
+  }
+  .content-signup {
+    display: flex;
+    min-height: 100vh;
+    .content-left {
+      background: #fcfcfc;
+      width: 50%;
+      padding: 53px 85px 23px 30px;
+      .signup-desc {
+        max-width: 515px;
+        margin-left: auto;
+        .logo {
+          margin-bottom: 63px;
+          img {
+            display: block;
+          }
+        }
+        .head {
+          max-width: 422px;
+          margin-bottom: 15px;
+          font-size: 18px;
+          line-height: 1.778;
+          .subtitle {
+            color: #1f1f24;
+            font-size: 13px;
+            letter-spacing: 1.3px;
+            margin-bottom: 21px;
+
+            .icon {
+              display: inline-block;
+              vertical-align: middle;
+              margin-right: 22px;
+              margin-top: -2px;
+            }
+          }
+          h1 {
+            font-size: 55px;
+            line-height: 1.127;
+            margin-bottom: 21px;
+            font-family: 'Apercu-Pro';
+            font-weight: 700;
+            color: inherit;
+            letter-spacing: -0.05em;
+          }
+          p {
+            color: #626262;
+            margin-bottom: 0;
+            font-family: $sans-Regular;
+          }
+        }
+        .award-list1 {
+          h2 {
+            font-size: 20px;
+            font-weight: 600;
+            font-family: 'Apercu-Pro';
+            margin-bottom: 34px;
+            margin-top: 28px;
+          }
+          img {
+            width: 100%;
+          }
+        }
+        .award-list {
+          margin-bottom: 33px;
+          li {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            padding: 14px 0;
+          }
+          .logo-hold {
+            width: 100px;
+            margin-right: 11px;
+            img {
+              display: block;
+            }
+          }
+          .caption {
+            -webkit-box-flex: 1;
+            -ms-flex: 1;
+            flex: 1;
+            font-size: 16px;
+            color: #626262;
+          }
+        }
+        .logo-row {
+          .title {
+            font-size: 18px;
+            font-weight: 500;
+            color: #7856ff;
+            display: block;
+            margin-bottom: 24px;
+            margin-top: 34px;
+            font-family: $sans-Regular;
+          }
+          .logo-list {
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: flex;
+            -webkit-box-align: center;
+            -ms-flex-align: center;
+            align-items: center;
+            -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+            -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+            justify-content: space-between;
+            margin: 0;
+            li {
+              list-style: none;
+              padding: 0 0px;
+              // padding: 0 15px;
+              margin-bottom: 30px;
+              img {
+                width: 100%;
+              }
+            }
+          }
+        }
+      }
+    }
+    .content-right {
+      width: 50%;
+      background: #1f1f24;
+      padding: 30px 30px 30px 79px;
+      min-height: 100vh;
+      display: flex;
+      align-items: center;
+      .form-box {
+        background: #fff;
+        width: 100%;
+        padding: 37px 26px;
+        max-width: 560px;
+        margin: 0;
+        -webkit-border-radius: 6px;
+        border-radius: 6px;
+        h2 {
+          font-size: 24px;
+          line-height: 1.167;
+          color: #37383c;
+          margin-bottom: 31px;
+          letter-spacing: -0.7px;
+          font-weight: 700;
+          font-family: $apercu-pro-regular;
+        }
+      }
+
+      .note {
+        color: #8f8f91;
+        font-size: 16px;
+        display: block;
+        text-align: center;
+        padding-top: 30px;
+        max-width: 560px;
+        a {
+          font-weight: 700;
+          color: #fff;
+          margin-left: 6px;
+          padding: 0;
+        }
+      }
+      //    input {
+      //     height: 60px;
+      // }
+    }
+    p {
+      margin: 0 0 1em;
+    }
+  }
+}
+
+.form-box ::placeholder {
+  color: #93909f !important;
+  // font-family: $sans-Regular;
+}
+
+select.mktoField {
+  color: #4f44e0;
+  background-color: transparent;
+  background: url('../../images/sales/dropdown-blue-icon.svg') !important;
+  background-position: 96% 50% !important;
+  background-repeat: no-repeat !important;
+  background-size: 20px 20px !important;
+  border-color: #cfd6e4;
+
+  appearance: none;
+}
+.form-label1 {
+  margin-bottom: 4px;
+  color: #5b6271;
+  font-size: 14px;
+  text-transform: capitalize;
+  font-family: $apercu-pro;
+}
+.form-box {
+  .form-group {
+    margin-bottom: 0;
+    min-height: 96px;
+    input,
+    select {
+      height: auto;
+      padding: 9px 15px !important;
+      border-radius: 8px;
+    }
+    textarea {
+      min-height: 100px;
+    }
+  }
+  .thanks-design {
+    min-height: 70vh;
+    text-align: center;
+    padding: 10% 40px;
+    position: relative;
+    h3 {
+      color: #1d1e21;
+      font-size: 4rem;
+      font-weight: bold;
+      letter-spacing: -3.2px;
+    }
+    p {
+      font-size: 22px;
+      color: #1d1e21;
+      margin: 20px 0 !important;
+      padding: 0 10%;
+      font-family: $sans-Regular;
+    }
+    .icon {
+      position: absolute;
+      bottom: -31px;
+      left: 20%;
+    }
+  }
+  .form-control {
+    padding: 0.375rem 1.6rem 0.375rem 0.75rem;
+    // border: 1px solid #F3F6FB;
+    border-radius: 5px;
+    background: #f3f6fb;
+    // height: 60px;
+    &:focus {
+      // border: 1px solid #F3F6FB;
+      border-radius: 5px;
+      background: unset;
+    }
+  }
+}
+.form-box .form-control .form-box textarea.form-control {
+  height: auto;
+  min-height: 6rem;
+}
+
+.media-section .wysiwyg-editor h2,
+.head h1 {
+  font-size: 84px;
+  line-height: 1.095;
+}
+.subtitle {
+  text-transform: uppercase;
+  font-family: $apercu-pro-regular;
+  position: relative;
+  margin-bottom: 14px;
+  color: #fff;
+}
+.hero-title,
+.subtitle {
+  letter-spacing: 0.1em;
+  display: block;
+}
+
+@media (max-width: 1279px) {
+  .content-signup .content-left {
+    padding: 53px 30px;
+  }
+
+  .signup-desc .logo-row .logo-list {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  #wrapper .content-signup .content-left .signup-desc .head h1 {
+    font-size: 45px;
+  }
+  .signup-desc .logo-row .logo-list {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+  }
+  .content-signup .content-right {
+    padding: 53px 30px 50px !important;
+  }
+}
+
+@media (max-width: 1023px) {
+  .content-signup {
+    display: block;
+  }
+  .content-signup .content-left {
+    width: 100% !important;
+    padding: 40px 30px;
+  }
+  .content-signup .content-right {
+    width: 100% !important;
+    // padding-top: 80px 30px;
+  }
+  .signup-desc {
+    max-width: 100%;
+  }
+  .signup-desc .head {
+    max-width: 100%;
+  }
+  .form-box {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 767px) {
+  .content-signup .content-left {
+    padding: 20px 30px;
+    display: none;
+  }
+  .thanks-design h3 {
+    font-size: 2rem;
+  }
+  .thanks-design p {
+    font-size: 18px;
+  }
+  #wrapper .logo {
+    padding: 20px 30px 22px 30px;
+  }
+  .signup-desc .logo {
+    margin-bottom: 0;
+    text-align: center;
+  }
+  .content-signup .content-left .inner-content {
+    display: none;
+  }
+
+  .content-signup .content-right {
+    padding: 50px 30px;
+  }
+  .form-box {
+    padding: 30px 20px;
+  }
+  .form-box h2 {
+    font-size: 18px;
+  }
+  .content-signup .content-right .note {
+    font-size: 14px;
+  }
+  #wrapper .close-icon {
+    right: 10px;
+
+    top: 16px;
+  }
+  #wrapper .close-icon img {
+    width: 30px;
+  }
+  #wrapper .form-box .thanks-design {
+    min-height: 70vh;
+    text-align: center;
+    padding: 20% 10px;
+  }
+  #wrapper .content-signup .content-right .form-box {
+    padding: 37px 16px;
+  }
+  #wrapper .form-box .thanks-design h3 {
+    color: #1d1e21;
+    font-size: 3rem;
+  }
+  #wrapper .form-box .thanks-design .icon {
+    bottom: -37px;
+    left: 16%;
+    img {
+      width: 190px;
+    }
+  }
+}
+
+@media (min-width: 1024px) {
+  .content-signup .content-right {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    overflow-y: auto;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1439px) {
+  #wrapper .content-signup .content-right .form-box {
+    padding: 30px 26px !important;
+    margin: 140px 0 0 0;
+  }
+  #wrapper .content-signup .content-right {
+    padding: 30px 30px 30px 49px;
+  }
+  #wrapper .close-icon img {
+    width: 25px;
+  }
+  #wrapper .close-icon {
+    top: 70px;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 991px) {
+  #wrapper .content-signup {
+    display: block;
+  }
+  #wrapper .content-signup .content-left .signup-desc {
+    max-width: 100%;
+  }
+  #wrapper .content-signup .content-left .signup-desc .head {
+    max-width: 100%;
+  }
+  #wrapper .content-signup .content-right .form-box {
+    max-width: 100%;
+  }
+  #wrapper .form-box .thanks-design .icon {
+    position: absolute;
+    bottom: -37px;
+    left: 20%;
+  }
+  #wrapper .content-signup .content-left .signup-desc .award-list1 img {
+    width: 81%;
+  }
+}
+@media (min-width: 1023px) and (max-width: 1439px) {
+  #wrapper .close-icon {
+    position: fixed;
+    right: 24px;
+    z-index: 99;
+    top: 10px;
+    padding: 5px;
+  }
+  #wrapper .form-box .thanks-design {
+    padding: 11% 0;
+  }
+}
+@media (min-width: 1439px) and (max-width: 1500px) {
+  #wrapper .close-icon {
+    position: fixed;
+    right: 10px;
+    z-index: 99;
+    top: 10px;
+  }
+}
+@media (min-width: 1439px) and (max-width: 2000px) {
+  .form-box .thanks-design .icon {
+    bottom: -37px;
+  }
+}

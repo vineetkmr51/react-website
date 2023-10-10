@@ -1,0 +1,118 @@
+.btn {
+  text-align: center;
+  -webkit-border-radius: 8px;
+  line-height: 0;
+  padding: 15px 30px;
+  border-radius: 4px;
+  transition: 0.5s;
+  color: $white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  font-family:   $narin-medium;
+  background: $primary-color;
+  min-height: 44px;
+  display: flex;
+  align-items: center;
+  border: none;
+
+  &.btn-primary {
+    color: $white;
+    background: $primary-color;
+
+    &:hover {
+      background: $color-lotus;
+    }
+  }
+
+  &.btn-secondary {
+    color: $white;
+    background: $dark-bg;
+    font-family:   $narin-medium;
+    font-weight: normal;
+
+    &:hover {
+      background: #303035;
+    }
+  }
+
+  &.lg {
+    min-width: 150px;
+  }
+
+  &.xl {
+    min-width: 180px;
+  }
+  &.xxl {
+    min-width: 280px;
+    padding: 16px 32px;
+  }
+
+  &.btn-transparent {
+    color: $white;
+    background: transparent;
+    border: 2px solid $white;
+  }
+}
+
+.link {
+  font-size: 18px;
+  letter-spacing: -0.45px;
+  font-family: $sans-Regular;
+
+  svg {
+    margin: 0 0 2px 8px;
+  }
+}
+
+.anchor {
+  &::after {
+    display: block;
+    content: "";
+    transform: scaleX(0);
+    transition: transform 250ms ease-in-out;
+    transform-origin: 0% 50%;
+    border-bottom: solid 2px $color-orange;
+  }
+
+  &:hover {
+    opacity: 0.9;
+
+    &:after {
+      transform: scaleX(1);
+    }
+  }
+}
+
+.form.default {
+  label {
+    text-transform: uppercase;
+    font-family: $sans-Regular;
+  }
+  input.form-control,
+  textarea.form-control {
+    background: transparent;
+    color: $white;
+    border-radius: 8px;
+    border: 1px solid $white;
+    &:focus,
+    &:active {
+      outline: none;
+      box-shadow: none;
+      border-color: none;
+    }
+  }
+  input.form-control {
+    height: 60px;
+  }
+}
+@media only screen and (max-width: 1025px) {
+  .btn {
+    min-width: 140px;
+  }
+}
+@media only screen and (max-width: 1500px) and (min-width: 1300px) {
+  .modal-design .modal-content .modal-body .form .cs-radio label,
+  .form.default input.form-control {
+    height: 52px;
+  }
+}

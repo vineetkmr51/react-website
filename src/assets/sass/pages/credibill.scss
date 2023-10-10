@@ -1,0 +1,89 @@
+
+/* rockout page */
+.description-rockout{
+    background: black;
+    color: white;
+  }
+
+  
+  .credibill .timeline-rock{
+    background: #00be9c;
+  }
+ 
+  .credibill {
+    .inner-banner {
+        background: url('../../images/project/rockout-banner.png') ;
+        background-repeat: no-repeat;
+        position: relative;
+        background-size: cover !important;
+        background-repeat: no-repeat !important;
+        background-position: center;
+      }  
+    .inner-banner {
+            .content-main img {
+        
+                margin-top: 100px;
+            }
+    }
+    .solution-section{
+        background: url('../../images/project/credibill-three.png');
+        border-top: 5px;
+        position: relative;
+        min-height: 100vh;
+        border-bottom: 0px solid #1F1F24;
+        border-top: 5px;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+      }
+      .technology-section{
+        background: #E2F8FF;
+      }
+      .save-section {
+        background: #E2F8FF;
+      }
+      .image-section{
+        background: url('../../images/project/get-metched.png');
+        position: relative;
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+        height: 100vh;
+        border-bottom: 10px solid #1F1F24;
+      } 
+       
+    .border-service {
+        border-top: 5px !important;
+    }
+}
+.about-rock{
+  border-bottom: 0px !important;
+}
+.credibill .technology-section{
+    border-bottom: 10px solid #1F1F24;
+}
+
+.credibill .timeline-section .timeline-list .left-logo {
+  top: 7%;
+}
+@media only screen and (max-width: 1024px) {
+  
+}
+@media only screen and (max-width: 768px) {
+  .credibill .solution-section {
+    min-height: 430px;
+    background-size: contain;
+  }
+  
+}
+@media only screen and (max-width: 990px) and (min-width: 768px) {
+  .credibill .timeline-section .content-main h2 {
+    margin: 22px 0px;
+  }
+}
+
+@media only screen and (max-width: 1024px) and (min-width: 992px) {
+    .credibill .solution-section {
+      min-height: 45vh;
+    }
+}
