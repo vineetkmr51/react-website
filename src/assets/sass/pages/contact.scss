@@ -1,108 +1,55 @@
-$bannerHeight: 480px;
-
-//---- Dark Theme design
-.dark-theme {
-  .contact-us {
-    background: $dark-bg;
-    color: $white;
-    overflow-x: hidden;
-
-    .consultation-bar {
-      background: $color-lotus;
-    }
-  }
-}
-
-//---- Light Theme design
-.light-theme {
-  .contact-us {
-    background: $white;
-
-    .consultation-bar {
-      background: $dark-bg;
-    }
-  }
-}
-
 .contact-us {
   overflow-y: hidden;
   .inner-banner {
     .content {
-      min-height: $bannerHeight;
-
       h1 {
-        font-family: $apercu-pro;
-        letter-spacing: -3.5px;
+        font-family: $narin-medium;
         font-weight: bold;
-        padding-top: 60px;
-
-        span {
-          color: $color-orange;
-        }
+        padding-top: 20px;
       }
     }
   }
 
   .contact-form {
     position: relative;
-    .icon {
-      position: absolute;
-
-      &.bottom-left {
-        bottom: 110px;
-        left: -30px;
-      }
-    }
-
-    .icon {
-      position: absolute;
-
-      &.top-right {
-        right: -15%;
-        top: 20px;
-      }
-    }
-
     .content {
-      background: $color-lotus;
-      color: $white;
+      background: #f8fafc;
+      color: $text-grey;
       border-radius: 20px;
       padding: 30px 70px;
-      margin-bottom: 80px;
+      margin-top: 40px;
+      margin-bottom: 20px;
       position: relative;
-      z-index: 1;
-      .icon {
-        position: absolute;
+      text-align: left;
 
-        &.top-left {
-          left: -60px;
-          top: -120px;
-        }
-      }
       h2 {
         letter-spacing: -1px;
-        font-family: $apercu-pro;
+        font-family: $narin-medium;
         font-weight: bold;
         font-size: 50px;
+        color: $text-grey;
       }
       p {
         font-size: 18px;
         font-family: $sans-Regular;
+        color: $text-grey;
       }
       .form {
         .form-group {
           min-height: 110px;
+          text-align: left;
         }
         label {
           text-transform: capitalize;
-          font-family: $apercu-pro;
+          font-family: $narin;
+          color: $text-grey;
         }
         input.form-control,
         textarea.form-control {
           background: transparent;
-          color: $white;
+          color: $text-grey;
           border-radius: 8px;
-          border: 1px solid $white;
+          border: 1px solid #d0d5dd;
           &:focus,
           &:active {
             outline: none;
@@ -120,32 +67,41 @@ $bannerHeight: 480px;
         h6 {
           opacity: 0.8;
           text-transform: uppercase;
-          font-family: $apercu-pro;
+          font-family: $narin;
           letter-spacing: 1.12px;
+          color: $text-grey;
         }
 
         p {
           letter-spacing: -0.55px;
           font-family: $sans-Regular;
           font-size: 18px;
-          color: #ffffff;
+          color: $text-grey;
         }
       }
     }
     .thanks-design {
-      text-align: center;
+      text-align: left;
       padding: 60px 0;
       width: 100%;
+      min-height: 520px;
+      > div {
+        background: #fff;
+        border-radius: 18px;
+        padding: 20px;
+        margin-top: 4%;
+        padding-top: 30px;
+      }
       h3 {
-        color: #fff;
+        color: $text-grey;
         font-size: 2.5rem;
         font-weight: bold;
       }
       p {
         font-size: 18px;
-        color: #fff;
+        color: $text-grey;
         margin: 20px 0;
-        padding: 0 6%;
+        padding: 0;
         font-family: $sans-Regular;
       }
     }
@@ -153,52 +109,28 @@ $bannerHeight: 480px;
     .text-danger {
       color: #fff !important;
     }
+    .form-input {
+      position: relative;
+      .error {
+        position: absolute;
+        bottom: -25px;
+        margin-bottom: 0;
+        left: 0;
+        font-size: 14px;
+        color: red;
+      }
+    }
   }
-}
-
-.file-upload {
-  border: 1px dashed #7856ff;
-  width: 100%;
-  height: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  cursor: pointer;
-  border-radius: 0.25rem;
-  color: #7856ff;
 }
 
 /* for mobile */
 @media only screen and (max-width: 767px) {
-  .contact-us .contact-form .content .icon.top-left {
-    left: -40px;
-    top: -110px;
-
-    img {
-      width: 150px;
-    }
-  }
   .contact-us .inner-banner .content {
     min-height: 380px;
   }
   .contact-us .inner-banner .content h1 {
     font-size: 4.2rem;
     padding-top: 0;
-  }
-
-  .contact-us .contact-form .icon.top-right {
-    top: 0;
-    img {
-      width: 150px;
-    }
-  }
-
-  .contact-us .contact-form .icon.bottom-left {
-    left: -20px;
-
-    img {
-      width: 150px;
-    }
   }
 
   .contact-us .contact-form .content {
@@ -218,9 +150,6 @@ $bannerHeight: 480px;
   }
   .contact-us .contact-form .thanks-design h3 {
     font-size: 1.5rem;
-  }
-  .contact-us .contact-form .icon.top-right {
-    right: -10px;
   }
 }
 
@@ -245,53 +174,12 @@ $bannerHeight: 480px;
   .contact-us .contact-form .content .information p {
     font-size: 18px;
   }
-  .contact-us .contact-form .icon.top-right {
-    right: -3%;
-    top: 30px;
-    img {
-      width: 130px;
-    }
-  }
-  .contact-us .contact-form .content .icon.top-left {
-    left: -20px;
-    top: -110px;
-    img {
-      width: 130px;
-    }
-  }
-  .contact-us .contact-form .icon.bottom-left {
-    left: -20px;
-    img {
-      width: 130px;
-    }
-  }
 }
 
 /* ipad Landsacpe */
 @media only screen and (max-width: 1190px) and (min-width: 991px) {
   .contact-us .inner-banner .content h1 {
     font-size: 6.2rem;
-  }
-
-  .contact-us .contact-form .icon.top-right {
-    right: -6%;
-    top: 30px;
-    img {
-      width: 160px;
-    }
-  }
-  .contact-us .contact-form .content .icon.top-left {
-    left: -40px;
-    top: -110px;
-    img {
-      width: 160px;
-    }
-  }
-  .contact-us .contact-form .icon.bottom-left {
-    left: -20px;
-    img {
-      width: 160px;
-    }
   }
 
   .contact-us .contact-form .content {
@@ -303,23 +191,6 @@ $bannerHeight: 480px;
   }
 }
 
-/* for mobile */
-@media only screen and (min-width: 1200px) {
-  .contact-us .contact-form .icon.bottom-left {
-    bottom: 110px;
-    left: -30px;
-  }
-}
-
-@media only screen and (min-width: 1600px) {
-  .contact-us .contact-form .icon.bottom-left {
-    bottom: 110px;
-    left: 1%;
-  }
-  .contact-us .contact-form .icon.top-right {
-    right: -12%;
-  }
-}
 @media only screen and (max-width: 1400px) and (min-width: 1200px) {
   .contact-us .inner-banner .content h1 {
     font-size: 5.8rem;
@@ -328,17 +199,11 @@ $bannerHeight: 480px;
   .contact-us .inner-banner .content {
     min-height: 420px;
   }
-  .contact-us .contact-form .icon.top-right img {
-    width: 80%;
-  }
 }
 @media only screen and (max-width: 1500px) and (min-width: 1400px) {
   .contact-us .inner-banner .content h1 {
     font-size: 5.8rem;
     padding-top: 80px;
-  }
-  .main-content .icon img {
-    width: 90%;
   }
   .contact-us .contact-form .content h2 {
     font-size: 3.2rem;
